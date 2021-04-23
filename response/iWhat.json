@@ -1,0 +1,690 @@
+[
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"oop": true
+		},
+		"response": {
+			"text": {
+                "title": "Lập trình hướng đối tượng là gì?",
+                "content": "OOP (Object-oriented programming) là kiểu lập trình nhằm vào sự tương tác của các đối tượng. Mỗi đối tượng có những thuộc tính xác định các đặc điểm, những phương thức xác định những chức năng của đối tượng. Chúng tạo thành cấu trúc của đối tượng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"object": true
+		},
+		"response": {
+			"text": {
+                "title": "Đối tượng là gì ?",
+                "content": "Đối tượng đại diện cho một thực thể trong thế giới thực. Mỗi đối tượng có thuộc tính và đặc điểm riêng dùng để mô tả nó là cái gì và nó có thể làm gì ?  Ví dụ: - Học sinh ,giáo viên - Nhân vật trong game - Những loài động vật , ... "
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"class": true
+		},
+		"response": {
+			"text": {
+                "title": "Lớp là gì ? ",
+                "content": "Lớp (Class) là nhóm các đối tượng có thuộc tính như nhau, có chung hành vi và mối quan hệ. Ví dụ: - Lớp người -Lớp các động vật - Lớp các nhân vật , …"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"property": true
+		},
+		"response": {
+			"text": {
+                "title": "Thuộc tính là gì ?",
+                "content": "Thuộc tính (Property) là đặc tính mà đối tượng cần phải có khi được mô tả trong một lớp."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"method": true
+		},
+		"response": {
+			"text": {
+                "title": "Phương thức là gì ?",
+                "content": "Phương thức (Method) là hành động mà một đối tượng hoặc thực thể cần phải có khi được mô tả trong một lớp. Ví dụ: Trong lớp đa giác thì Vẽ, Xóa, Di chuyển là các phương thức của lớp này."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"abstraction": true
+		},
+		"response": {
+			"text": {
+				"title": "Trừu tượng hóa là gì ?",
+				"content": "Tính trừu tượng (Abstraction) là một tiến trình ẩn các chi tiết trình triển khai và chỉ hiển thị tính năng tới người dùng , cho phép bạn loại bỏ tính chất phức tạp của đối tượng bằng cách chỉ đưa ra các thuộc tính và phương thức cần thiết của đối tượng trong lập trình. "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"reusability": true
+		},
+		"response": {
+			"text": {
+				"title": "Tái sử dụng là gì ?",
+				"content": "Phát  triển hướng đối tượng cho phép chúng ta có thể tái sử dụng lại các thiết kế và mã lệnh trong các ứng dụng tiếp theo, đặc biệt trong tính thừa kế cũng thúc đẩy việc tái sử dụng này."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"constructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Định nghĩa hàm khởi tạo ?",
+				"content": "Hàm khởi tạo cũng là một hàm bình thường nhưng có điểm đặc biệt là nó luôn luôn được gọi tới khi ta khởi tạo một đối tượng. Hàm khởi tạo có thẻ có tham số hoặc không có tham số. "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"destructor": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa hàm hủy ?",
+                "content": "Hàm hủy là hàm tự động gọi sau khi đối tượng bị hủy, nó thường được sử dụng để giải phóng bộ nhớ chương trình. Trong đối tượng hàm hủy có thể có hoặc không."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"encapsulation": true
+		},
+		"response": {
+			"text": {
+                "title": "Đóng gói là gì ?",
+                "content": "Đóng gói ( Encapsulation) là cơ chế ràng buộc dữ liệu và thao tác trên dữ liệu đó thành một thể thống nhất, tránh được tác động từ bên ngoài. Đây là tính chất bảo đảm sự toàn vẹn và bảo mật của đối tượng. Tính đóng gói được thể hiện thông qua phạm vi truy cập (access modifier). "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+                "title": "Kế thừa là gì ?",
+                "content": "Kế thừa (Inheritance) là thuôc tính cho phép tái sử dụng một lớp có sẵn để tạo ra một lớp mới. Hay hiểu nôm na nó là cách một lớp có thể thừa hưởng lại những thuộc tính, phương thức từ một lớp khác và sử dụng chúng như là của bản thân mình."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "define",
+			"inheritance": true,
+            "constructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+                "title": "Hàm khởi tạo trong kế thừa là gì ?",
+                "content": "Trong kế thừa, Hàm khởi tạo của lớp cơ bản được gọi trước sau đó đó đến hàm khởi tạo của lớp dẫn xuất."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "define",
+			"inheritance": true,
+            "destructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+                "title": "Hàm khởi tạo trong kế thừa là gì ?",
+                "content": "Trong kế thừa, Hàm hủy được gọi theo trình tự ngược với hàm khởi tạo. Lớp dẫn xuất được gọi trước và sau đó là lớp cơ bản."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "define",
+			"inheritance": true,
+            "member_func": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa hàm thành viên trong kế thừa ?",
+                "content": "Trong Kế thừa, Hàm thành viên của lớp dẫn xuất có thể có cùng tên với hàm của lớp cơ bản."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "define",
+			"inheritance": true,
+            "container": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa lớp container trong kế thừa ?",
+                "content": "Lớp container là lớp có thành viên là một đối tượng thuộc lớp khác."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"inheritance": true,
+			"derived_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Lớp con / lớp dẫn xuất là gì ?",
+                "content": "Lớp con hay còn lại là lớp dẫn xuất (Class Derived) là lớp thừa hưởng các thuộc tính và các hàm của lớp cha. Lớp con có thể cũng có thuộc tính của riêng nó."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"inheritance": true,
+			"base_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Lớp cha / lớp cơ sở là gì ?",
+                "content": "Lớp cha hay còn gọi là lớp cơ sở (Class Base) là lớp mà các lớp khác thừa hưởng hành vi của nó."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"single_inheritance": true,
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Thừa kế đơn là gì ?",
+				"content": "Thừa kế đơn là tiến trình tạo một lớp mới từ một lớp đã có sẵn."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"inheritance": true,
+			"multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+                "title": "Đa thừa kế là sao ?",
+                "content": "Đa thừa kế là quá trình tạo ra một lớp mới từ nhiều lớp cơ bản sẵn có. Cho phép ta tích hợp các hành vi của lớp cơ bản vào một lớp duy nhất."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Đa hình là gì ?",
+				"content": "Tính đa hình ( Polymorphism ) là hiện tượng các đối tượng thuộc các lớp khác nhau có thể hiểu cùng 1 thông điệp theo các cách khác nhau."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"interface": true
+		},
+		"response": {
+			"text": {
+                "title": "Khái niệm interface ?",
+                "content": "Interface (giao diện, lớp giao tiếp) là 1 tập các thành phần chỉ có khai báo mà không có phần định nghĩa."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"point": true
+		},
+		"response": {
+			"text": {
+                "title": "Con trỏ là gì ?",
+                "content": "Con trỏ được dùng để trỏ tới tới địa chỉ trên bộ nhớ nơi được dùng để lưu trữ giá trị của biến."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"this": true
+		},
+		"response": {
+			"text": {
+                "title": "Con trỏ this là gì ?",
+                "content": "Mỗi đối tượng có quyền truy cập vào địa chỉ riêng của nó thông qua một con trỏ quan trọng được gọi là con trỏ this. Con trỏ this là một tham số ngầm định cho tất cả các hàm thành viên. Vì vậy, bên trong một hàm thành viên, điều này có thể được sử dụng để chỉ đối tượng gọi."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"casting": true
+		},
+		"response": {
+			"text": {
+                "title": "Ép kiểu là gì ?",
+                "content": "Ép kiểu (Casting) là việc chuyển đổi các biến từ kiểu dữ liệu này sang kiểu dữ liệu khác."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"allocation_array": true
+		},
+		"response": {
+			"text": {
+                "title": "Cấp phát mảng là thế nào ?",
+                "content": "Cấp phát mảng là việc cấp phát bộ nhớ cho mảng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"scope": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa tầm vực ?",
+                "content": "tầm vực dùng để chỉ một ngữ cảnh đóng, trong đó các giá trị và biểu thức được kết hợp với nhau."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"operator": true
+		},
+		"response": {
+			"text": {
+                "title": "Khái niệm toán tử ?",
+                "content": "toán tử là một ký hiệu được sử dụng để thực hiện một phép tính/chức năng nào đó."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"new_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Toán tử new là gì ?",
+                "content": "Toán tử new là toán tử dùng để cấp phát bộ nhớ cho 1 con trỏ."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"delete_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa toán tử delete ?",
+                "content": "là toán tử dùng để giải phóng 1 con trỏ đã được cấp phát trước đó, còn nếu đó là 1 mảng thì dùng delete[]"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"assignment_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Toán tử gán là gì ?",
+                "content": "Toán tử gán là một trường hợp đặc biệt so với các toán tử khác. Nếu trong lớp chưa định nghĩa một phương thức toán tử gán thì trình biên dịch sẽ phát sinh một toán tử gán mặc định để thực hiện câu lệnh gán 2 đối tượng của lớp."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"compare_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Toán tử so sánh là sao ?",
+                "content": "Toán tử so sánh là toán tử dùng để so sánh hai giá trị có cùng kiểu dữ liệu."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"overloading_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Đa năng toán tử là gì ?",
+                "content": "Đa năng toán tử là xử lý để cho phép các toán tử của c++ có thể làm việc với các đối tượng của lớp."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"unary_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa toán tử một ngôi ?",
+                "content": "toán tử một ngôi là hàm một biến."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"binary_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa toán tử hai ngôi ?",
+                "content": "toán tử một ngôi là hàm hai biến."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"static": true
+		},
+		"response": {
+			"text": {
+                "title": "Thành phần tĩnh static là gì ?",
+                "content": "Static trong c++ là dữ liệu của lớp không phải là dữ liệu của đối tượng. Static trong c++ tồn tại như một biến toàn cục."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"copy_constructor": true
+		},
+		"response": {
+			"text": {
+                "title": "Hàm khởi tạo sao chép là gì ?",
+                "content": "Hàm khởi tạo sao chép là một constructor mà tạo một đối tượng bằng việc khởi tạo nó với một đối tượng của cùng lớp đó, mà đã được tạo trước đó."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"default_argument_func": true
+		},
+		"response": {
+			"text": {
+                "title": "Hàm với đối số ngầm định là sao ?",
+                "content": "Hàm với đối số ngầm định là hàm tạo có thể được gọi mà không cần cung cấp bất cứ đối số (argument) nào, cho dù hàm tạo được tự động sinh ra hay do người dùng định nghĩa."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"inline_func": true
+		},
+		"response": {
+			"text": {
+                "title": "Hàm tại chỗ là gì ?",
+                "content": "Hàm tại chỗ là một cấu trúc trong ngôn ngữ lập trình được sử dụng để đề nghị với chương trình biên dịch rằng một hàm cụ thể nào đó là đối tượng của việc khai triển nội tuyến (inline expansion); *lb có nghĩa là, nó đề nghị rằng chương trình biên dịch nên chèn toàn bộ thân hàm vào trong từng ngữ cảnh, nơi hàm đó được sử dụng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"friend_func": true
+		},
+		"response": {
+			"text": {
+                "title": "Hàm bạn là gì ?",
+                "content": "Hàm bạn trong c++ là hàm tự do, không thuộc lớp. Tuy nhiên hàm bạn trong c++ có quyền truy cập các thành viên private của class."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"friend_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Khái niệm lớp bạn ?",
+                "content": "Lớp bạn trong c++ cũng tương tự như hàm bạn, việc khai báo lớp bạn sẽ cho phép lớp bạn của lớp kia được truy cập tất cả thành viên của nó."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"virtual_base_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa lớp ảo ?",
+                "content": "lớp ảo là một lớp bên trong lồng nhau , các hàm và biến thành viên có thể được ghi đè và định nghĩa lại bởi các lớp con của lớp bên ngoài."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"override": true
+		},
+		"response": {
+			"text": {
+                "title": "Ghi đè là gì ?",
+                "content": "Ghi đè là Phương thức đã xuất hiện ở lớp cha và xuất hiện tiếp ở lớp con."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"overload": true
+		},
+		"response": {
+			"text": {
+                "title": "Nạp chồng là sao ?",
+                "content": "là các phương thức nằm trong cùng 1 lớp , có cùng tên với nhau nhưng có danh sách đối số khác nhau."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"vector_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Lớp vector là gì ?",
+                "content": "vector trong C++ là một đối tượng dùng để chứa các đối tượng khác, và các đối tượng được chứa này cũng được lưu trữ một cách liên tiếp trong vector."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"float_type": true
+		},
+		"response": {
+			"text": {
+                "title": "Kiểu số thực là gì?",
+                "content": "Kiểu số thực là kiểu dữ liệu dùng để định nghĩa một kiểu số thực."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"int_type": true
+		},
+		"response": {
+			"text": {
+                "title": "Kiểu số nguyên là gì ?",
+                "content": "Kiểu số nguyên là kiểu dữ liệu dùng để định nghĩa một kiểu số nguyên."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"char_type": true
+		},
+		"response": {
+			"text": {
+                "title": "Kiểu ký tự là gì ?",
+                "content": "Kiểu ký tự là kiểu dữ liệu dùng để định nghĩa ký tự."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"string_type": true
+		},
+		"response": {
+			"text": {
+                "title": "Kiểu chuỗi là gì ?",
+                "content": "Kiểu chuỗi là một lớp chuẩn mô tả về về chuỗi kí tự"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"boolean_type": true
+		},
+		"response": {
+			"text": {
+                "title": "Kiểu luận lý là gì ?",
+                "content": "Kiểu luận lý là một kiểu dữ liệu chỉ có thể nhận một trong hai giá trị như đúng/sai (true/false, yes/no, 1/0) nhằm đại diện cho hai giá trị thật (truth value)."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"stack": true
+		},
+		"response": {
+			"text": {
+                "title": "Khái niệm ngăn xếp ?",
+                "content": "ngăn xếp là một cấu trúc dữ liệu trừu tượng hoạt động theo nguyên lý vào sau ra trước."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"queue": true
+		},
+		"response": {
+			"text": {
+                "title": "Khái niệm hàng đợi ?",
+                "content": "hàng đợi là một cấu trúc dữ liệu dùng để lưu giữ các đối tượng theo cơ chế FIFO (viết tắt từ tiếng Anh: First In First Out), nghĩa là vào trước ra trước."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "define",
+			"priority_queue": true
+		},
+		"response": {
+			"text": {
+                "title": "Định nghĩa hàng đợi có độ ưu tiên ?",
+                "content": "Priority queue là một loại container adaptor, được thiết kế đặc biệt để phần tử ở đỉnh luôn luôn là phần tử có độ ưu tiên lớn nhất so với các phần tử khác."
+			}
+		}		
+	}
+]

@@ -1,0 +1,3232 @@
+[
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"method": true,
+			"property": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa method và property",
+				"content": "Chúng đều là thành phần của 1 class."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"public": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa public và protected",
+				"content": "*public* và *protected* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"private": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa private và protected",
+				"content": "*private* và *protected* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"private": true,
+			"public": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa private và public",
+				"content": "*private* và *public* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"overloading_func": true,
+			"overriding_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa hàm nạp chồng và hàm ghi đè",
+				"content": "Đều cho phép bạn xác định nhiều hơn một định nghĩa cho một tên hàm hoặc một toán tử trong cùng phạm vi (scope)."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"virtual_func": true,
+			"pure_virtual_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa virtual funtion và pure vitural function",
+				"content": "Đều là một hàm thành viên trong lớp cơ sở mà bạn muốn xác định lại trong các lớp dẫn xuất."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"single_inheritance": true,
+			"multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau đơn kế thừa và đa kế thừa",
+				"content": "Là cách 1 lớp có thể thừa hưởng lại những thuộc tính, phương thức từ 1 lớp khác và sử dụng chúng như là của bản thân mình, nói cách khác là dùng để biểu diễn mối quan hệ đặc biệt hoá – tổng quát hoá giữa các lớp."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"is-a": true,
+			"has-a": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa quan hệ is-a và has-a",
+				"content": "Đều cung cấp khả năng sử dụng lại mã"
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"constructor": true,
+			"destructor": true,
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa constructor va destructor trong kế thừa",
+				"content": "Đều không được các lớp con thừa kế."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"constructor": true,
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa contructor và destructor",
+				"content": "Đều là hàm thành viên đặc biệt của một lớp."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"interface": true,
+			"abstract_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa abstract class và interface",
+				"content": "Đều cung cấp khả năng mở rộng cho một class."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"interface": true,
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa class và interface",
+				"content": "Cả Class và Interface đều được sử dụng để tạo các kiểu tham chiếu mới."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"struct": true,
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa Class và struct",
+				"content": "Đều định nghĩa một đối tượng."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"struct_program": true,
+			"class_program": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa lập trình cấu trúc và lập trình hướng đối tượng",
+				"content": "Cả hai đều là các quy trình lập trình, đều là ngôn ngữ lập trình sử dụng lập trình cấp cao để giải quyết vấn đề nhưng sử dụng các phương pháp khác nhau."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"private": true,
+			"public": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa private, public và protected",
+				"content": "Các từ khóa *private*, *public* và *protected* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó. "
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"unary_op": true,
+			"binary_op": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa toán tử đơn ngôi và toán tử đa ngôi",
+				"content": "Đều là toán tử số học, là các operator được sử dụng để thực hiện các phép tính toán học lên toán hạng.*lb *Ví dụ*: ( +, -, *, /, %, ++, --)"
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"override": true,
+			"overload": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa nạp chồng và ghi đè",
+				"content": "Chúng là 2 khái niệm đi liền với tính đa hình trong lập trình hướng đối tượng."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"derived_class": true,
+			"base_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa lớp cơ sở và lớp kế thừa",
+				"content": "Khi định nghĩa một lớp mới kế thừa một lớp hiện tại thì lớp mới gọi là *lớp kế thừa* (derived class) và lớp hiện tại sẽ là *lớp cơ sở* (base class) của lớp đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"inheritance": true,
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa kế thừa và đa hình",
+				"content": "Kế thừa và đa hình là các khái niệm có liên quan với nhau, vì đa hình áp dụng cho các lớp cũng thực hiện khái niệm kế thừa."
+			}
+		}
+	},
+
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"oop": true
+			},
+			"response": {
+				"text": {
+					"title": "Ưu điểm của lập trình hướng đối tượng ?",
+					"content": "- Dễ dàng quản lý code khi có sự thay đổi chương trình. *lb - Dễ mở rộng dự án. *lb - Tiết kiệm được tài nguyên đáng kể cho hệ thống. *lb - Có tính bảo mật cao. *lb - Có tính tái sử dụng cao."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Ưu điểm của  việc sử dụng class ?",
+					"content": "Có thể xử lý các loại tham số khác nhau. *lb Trình biên dịch tạo các lớp chỉ cho các loại được sử dụng. Nếu mẫu được khởi tạo cho kiểu int, trình biên dịch chỉ tạo một phiên bản int cho lớp mẫu c ++. *lb Giảm nỗ lực mã hóa cho các loại dữ liệu khác nhau thành một bộ mã. *lb Các nỗ lực kiểm tra và gỡ lỗi bị giảm."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"reusability": true
+			},
+			"response": {
+				"text": {
+					"title": "Lợi ích của việc tái sử dụng ?",
+					"content": " chúng ta không cần phải viết lại mã tương tự trong lớp con. Điều này khiến chúng ta viết ít mã hơn và mã trở nên dễ đọc hơn nhiều."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"encapsulation": true
+			},
+			"response": {
+				"text": {
+					"title": "Đóng gói có những ưu điểm như thế nào ?",
+					"content": "Tính đóng gói tránh truy cập từ code bên ngoài, nghĩa là code bên ngoài không thể trực tiếp nhìn thấy và thay đổi trạng thái bên trong của đối tượng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Điểm mạnh của việc sử dụng kế thừa ?",
+					"content": "- Cho phép xây dựng 1 lớp mới từ lớp đã có. *lb Lớp mới gọi là lớp con (subclass) hay lớp dẫn xuất (derived class). *lb Lớp đã có gọi là lớp cha (superclass) hay lớp cơ sở (base class). *lb - Cho phép chia sẽ các thông tin chung nhằm tái sử dụng và đồng thời giúp ta dễ dàng nâng cấp, dễ dàng bảo trì. *lb - Định nghĩa sự tương thích giữa các lớp, nhờ đó ta có thể chuyển kiểu tự động (sẽ được trình bày trong bài ĐA HÌNH TRONG LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG)."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"inheritance": true,
+				"multilevel_inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Lợi ích của đa kế thừa ?",
+					"content": "Đa kế thừa cho phép lớp dẫn xuất kế thừa các thành phần từ nhiều lớp cơ sở."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"polymorphism": true
+			},
+			"response": {
+				"text": {
+					"title": "Đa hình có ưu điểm gì ?",
+					"content": "Tính đa hình cung cấp khả năng cho phép người lập trình gọi trước một phương thức của đối tượng, tuy chưa xác định đối tượng có phương thức muốn gọi hay không. *lb Đến khi thực hiện (run-time), chương trình mới xác định được đối tượng và gọi phương thức tương ứng của đối tượng đó. *lb Kết nối trễ giúp chương trình được uyển chuyển hơn, chỉ yêu cầu đối tượng cung cấp đúng phương thức cần thiết là đủ."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"interface": true
+			},
+			"response": {
+				"text": {
+					"title": "Điểm mạnh của interface ?",
+					"content": "- Có thể kế thừa nhiều interface(tính đa hình). *lb - Xây dựng được bộ khung mẫu mà các lớp phải follow theo. *lb - Giúp quản lý tốt, nắm bắt được các chức năng phải có cho một đối tượng nào đó. *lb - giảm mã và cải thiện hiệu suất."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"point": true
+			},
+			"response": {
+				"text": {
+					"title": "Ưu điểm của con trỏ ?",
+					"content": "- Có thể dùng để cấp phát bộ nhớ động. *lb - Truyền các tham số (các đối tượng, các mảng, các chuỗi ...) hiệu quả hơn (thay vì truyền giá trị của một biến, ta có thể truyền địa chỉ của biến đó). *lb - Giúp hàm có thể trả về nhiều hơn một giá trị. *lb - Xây dựng các cấu trúc dữ liệu phức tạp hơn như linked list, tree, và graph. "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"this": true
+			},
+			"response": {
+				"text": {
+					"title": "Điểm mạnh của con trỏ this ?",
+					"content": "- Nó có thể được sử dụng để truyền đối tượng hiện tại làm tham số cho phương thức khác. *lb - Nó có thể được sử dụng để tham chiếu đến thể hiện hiện tại của lớp (như ở ví dụ trên). *lb - Nó có thể được sử dụng để khai báo các chỉ mục."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"operator": true,
+				"overloading_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Toán tử đa năng có ưu điểm gì ?",
+					"content": "Giúp cho chương trình dễ hiểu và dễ truy tìm lỗi."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"casting": true
+			},
+			"response": {
+				"text": {
+					"title": "Ưu điểm của việc ép kiểu ?",
+					"content": "- Điều này được thực hiện để tận dụng các tính năng nhất định của phân cấp loại hoặc biểu diễn kiểu. *lb - Nó giúp tính toán các biểu thức có chứa các biến của các loại dữ liệu khác nhau."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"static": true
+			},
+			"response": {
+				"text": {
+					"title": "Lợi ích của việc sử dụng thành phần static ?",
+					"content": "giúp các đối tượng khác sử dụng Chuỗi hoặc các hàm hữu ích mà bạn không cần tạo đối tượng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"copy_constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Ưu điểm của hàm dựng sao chép ?",
+					"content": "giúp dễ dàng sao chép các đối tượng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"friend_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Lợi ích của việc sử dụng hàm bạn ?",
+					"content": "một hàm không phải là thành viên của lớp không thể truy cập dữ liệu thành viên của lớp đó. "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"friend_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Lợi ích của việc sử dụng lớp bạn ?",
+					"content": "một hàm không phải là thành viên của lớp có thể truy cập dữ liệu thành viên của lớp đó. "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"overloading_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Hàm đa năng có ưu điểm gì ?",
+					"content": "- việc sử dụng chức năng nạp chồng là để tiết kiệm không gian bộ nhớ, tính nhất quán và khả năng đọc. *lb - Chúng ta có thể phát triển nhiều hơn một chức năng có cùng tên."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"virtual_base_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Điểm mạnh của lớp ảo so vơi các lớp khác là gì ?",
+					"content": "- Các chức năng ảo được sử dụng để đạt được đa hình thời gian chạy. *lb - Nếu một lớp có nguồn gốc từ một lớp có hàm ảo, thì định nghĩa hàm có thể được định nghĩa lại trong lớp dẫn xuất."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"overload": true
+			},
+			"response": {
+				"text": {
+					"title": "Điểm mạnh của việc nạp chồng toán tử ?",
+					"content": "- Có khả năng tạo ra nhiều phương thức cùng tên, nhưng với các tham số khác nhau. *lb - Ưu điểm chính của điều này là mã sạch. *lb - Cung cấp cho các lập trình viên khả năng gọi một phương thức tương tự cho các loại dữ liệu khác nhau."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "advantage",
+				"vector_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Sử dụng lớp vector có những ưu điểm gì ?",
+					"content": "- Kích thước của vectơ có thể thay đổi khi cần thiết. *lb - Một số loại đối tượng khác nhau có thể tồn tại trong cùng một Vector."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "disadvantage",
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Nhược điểm của việc sử dụng kế thừa",
+					"content": "Nhược điểm chính của kế thừa là hai lớp (lớp cơ sở và lớp kế thừa) được liên kết chặt chẽ với nhau, đó là các lớp phụ thuộc lẫn nhau. Nếu chức năng của lớp cơ sở bị thay đổi thì các thay đổi cũng phải được thực hiện trên các lớp con."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "disadvantage",
+				"polymorphism": true
+			},
+			"response": {
+				"text": {
+					"title": "Nhược điểm của đa hình",
+					"content": "Nhược điểm của tính đa hình:*lb- Khó đọc code hơn.*lb- Tốn nhiều thời gian để thiết kế."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "disadvantage",
+				"interface": true
+			},
+			"response": {
+				"text": {
+					"title": "Nhược điểm của interface",
+					"content": "Mỗi khi định nghĩa thêm tính năng, các class impelement nó đồng lọat phải thêm tính năng đó, khả năng cao sẽ không có xử lý gì."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "disadvantage",
+				"static": true
+			},
+			"response": {
+				"text": {
+					"title": "Nhược điểm của static",
+					"content": "*static* hoạt động như một biến toàn cục và vì điều này mà khi sử dụng static trong chương trình thì nó sẽ chiếm nhiều tài nguyên hơn các thành phần thường."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "disadvantage",
+				"friend_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Nhược điểm của hàm friend",
+					"content": "- class con không được kế thừa hàm friend của class cha.*lb- chúng không thể được khai báo static hoặc từ bên ngoài."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"object": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo đối tượng (java):",
+					"code": "<class-name> <name> = new <class-name>();",
+					"content": "Trong đó:*lb *new* là 1 toán tử mà sẽ cấp phát vùng nhớ của 1 đối tượng khi chạy chương trình (runtime).*lb *name* là biến lưu tham chiếu của đối tượng."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo lớp (java):",
+					"code": "class <class-name> { *lb // thân của lớp *lb }",
+					"content": "Việc khai báo lớp được đặt bên trong một khối mã. Nói cách khác, thân của lớp được đặt trong cặp ngoặc nhọn ({}). Trong thân lớp, ta có thể khai báo các thành phần như trường, phương thức, và hàm tạo."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"property": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách biễu diễn thuộc tính (java):",
+					"code": "[modifier] <data-type> <name>;",
+					"content": "Trong đó:*lb *modifier* là một từ khóa tùy chọn xác định mức độ truy cập của một biến thể hiện, nó có thể là private, protected hoặc public.*lb *data-type* xác định kiểu dữ liệu của biến.*lb *name* Xác định tên của biến."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"method": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách biểu diễn phương thức trong lớp (java):",
+					"code": "[modifier] <return-type> <name> ([parameter-list])*lb { *lb  // Thân của phương thức *lb }",
+					"content": "Trong đó:*lb *modifier* Xác định mức truy cập của một phương thức thể hiện.*lb *return-type* Xác định kiểu dữ liệu của giá trị mà được trả về bởi phương thức.*lb *name* Là tên phương thức.*lb *parameter-list* Là các giá trị truyền tới phương thức."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"abstract_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo lớp trừu tượng (java):",
+					"code": "abstract class <class-name> { *lb // Khai báo các trường *lb // Định nghĩa các phương thức cụ thể *lb //[Khai báo các phương thức trừu tượng]*lb }",
+					"content": "Trong đó *lb *abstract*: chỉ ra rằng lớp và phương thức là trừu tượng."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo hàm khởi tạo (constructor) (java):",
+					"code": "<class-name>() {*lb // Các câu lệnh khởi tạo *lb }",
+					"content": "Hàm khởi tạo có tên trùng với tên lớp"
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"destructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo hàm hủy (destructor) (java):",
+					"code": "__destruct() { *lb // code *lb }",
+					"content": ""
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách biểu diễn kế thừa (java):",
+					"code": "class <class-name_con> extends <class-name_cha> { *lb ... *lb ... *lb}",
+					"content": ""
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"override": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách biểu diễn ghi đè phương thức (java):",
+					"code": "@Override *lb [modifier] <return-type> <name> ()*lb { *lb // code *lb }",
+					"content": "Trong đó*lb *modifier* Xác định mức truy cập của một phương thức thể hiện.*lb *return-type* Xác định kiểu dữ liệu của giá trị mà được trả về bởi phương thức.*lb *name* là tên của phương thức muốn ghi đè."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"overload": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách biểu diễn nạp chồng phương thức (java):",
+					"code": "[modifier] <return-type> <name> ([parameter-list])*lb { *lb // code *lb }",
+					"content": "Trong đó*lb *modifier* Xác định mức truy cập của một phương thức thể hiện.*lb *return-type* Xác định kiểu dữ liệu của giá trị mà được trả về bởi phương thức.*lb *name* là tên của phương thức muốn nạp chồng. *parameter_list* là danh sách các đối số."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"static": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo biến static (java):",
+					"code": "//Biến static *lb static <data-type> <name> = [value];*lb // Phương thức static *lb static <return-type> <method-name>() {*lb // code *lb }",
+					"content": "Trong đó*lb *data-type* là kiểu dữ liệu của biến.*lb *name* là tên biến. *lb *value* là giá trị của biến static.*lb *method-name* là tên của phương thức."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"casting": true
+			},
+			"response": {
+				"text": {
+					"title": "Cú pháp ép kiểu (c++):",
+					"code": "(type) expression",
+					"content": "Trong đó*lb *type* là kiểu dữ liệu bạn muốn"
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"const_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "Cú pháp ép kiểu const (c++):",
+					"code": "const_cast<type> (expr)",
+					"content": "Trong đó*lb *const_cast* được sử dụng để ghi đè const.*lb *type* là kiểu dữ liệu muốn ép."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"dynamic_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "Cú pháp ép kiểu động (c++):",
+					"code": "dynamic_cast<type> (expr)",
+					"content": "Trong đó*lb *dynamic_cast* thực hiện ép kiểu động.*lb *type* là kiểu dữ liệu muốn ép."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"copy_constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo copy constructor trong c++",
+					"code": "<class-name> (const <class-name> &obj) *lb { *lb // phan than cua constructor *lb }",
+					"content": "Trong đó*lb *obj* là một tham chiếu tới một đối tượng mà đang được sử dụng để khởi tạo đối tượng khác"
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "declare",
+				"virtual_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Cách khai báo hàm ảo trong c++",
+					"code": "virtual <return-type> <name>() { *lb // code *lb }",
+					"content": "Trong đó*lb *return-type* là kiểu dữ liệu trả về của phương thức. *lb *name* là tên của phương thức."
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"oop": true
+			},
+			"response": {
+				"text": {
+					"title": "Lập trình hướng đối tượng là gì?",
+					"content": "OOP (Object-oriented programming) là kiểu lập trình nhằm vào sự tương tác của các đối tượng. Mỗi đối tượng có những thuộc tính xác định các đặc điểm, những phương thức xác định những chức năng của đối tượng. Chúng tạo thành cấu trúc của đối tượng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"object": true
+			},
+			"response": {
+				"text": {
+					"title": "Đối tượng là gì ?",
+					"content": "Đối tượng đại diện cho một thực thể trong thế giới thực. Mỗi đối tượng có thuộc tính và đặc điểm riêng dùng để mô tả nó là cái gì và nó có thể làm gì ?  Ví dụ: - Học sinh ,giáo viên - Nhân vật trong game - Những loài động vật , ... "
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Lớp là gì ? ",
+					"content": "Lớp (Class) là nhóm các đối tượng có thuộc tính như nhau, có chung hành vi và mối quan hệ. Ví dụ: - Lớp người -Lớp các động vật - Lớp các nhân vật , …"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"property": true
+			},
+			"response": {
+				"text": {
+					"title": "Thuộc tính là gì ?",
+					"content": "Thuộc tính (Property) là đặc tính mà đối tượng cần phải có khi được mô tả trong một lớp."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"method": true
+			},
+			"response": {
+				"text": {
+					"title": "Phương thức là gì ?",
+					"content": "Phương thức (Method) là hành động mà một đối tượng hoặc thực thể cần phải có khi được mô tả trong một lớp. Ví dụ: Trong lớp đa giác thì Vẽ, Xóa, Di chuyển là các phương thức của lớp này."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"abstraction": true
+			},
+			"response": {
+				"text": {
+					"title": "Trừu tượng hóa là gì ?",
+					"content": "Tính trừu tượng (Abstraction) là một tiến trình ẩn các chi tiết trình triển khai và chỉ hiển thị tính năng tới người dùng , cho phép bạn loại bỏ tính chất phức tạp của đối tượng bằng cách chỉ đưa ra các thuộc tính và phương thức cần thiết của đối tượng trong lập trình. "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"reusability": true
+			},
+			"response": {
+				"text": {
+					"title": "Tái sử dụng là gì ?",
+					"content": "Phát  triển hướng đối tượng cho phép chúng ta có thể tái sử dụng lại các thiết kế và mã lệnh trong các ứng dụng tiếp theo, đặc biệt trong tính thừa kế cũng thúc đẩy việc tái sử dụng này."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa hàm khởi tạo ?",
+					"content": "Hàm khởi tạo cũng là một hàm bình thường nhưng có điểm đặc biệt là nó luôn luôn được gọi tới khi ta khởi tạo một đối tượng. Hàm khởi tạo có thẻ có tham số hoặc không có tham số. "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"destructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa hàm hủy ?",
+					"content": "Hàm hủy là hàm tự động gọi sau khi đối tượng bị hủy, nó thường được sử dụng để giải phóng bộ nhớ chương trình. Trong đối tượng hàm hủy có thể có hoặc không."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"encapsulation": true
+			},
+			"response": {
+				"text": {
+					"title": "Đóng gói là gì ?",
+					"content": "Đóng gói ( Encapsulation) là cơ chế ràng buộc dữ liệu và thao tác trên dữ liệu đó thành một thể thống nhất, tránh được tác động từ bên ngoài. Đây là tính chất bảo đảm sự toàn vẹn và bảo mật của đối tượng. Tính đóng gói được thể hiện thông qua phạm vi truy cập (access modifier). "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Kế thừa là gì ?",
+					"content": "Kế thừa (Inheritance) là thuôc tính cho phép tái sử dụng một lớp có sẵn để tạo ra một lớp mới. Hay hiểu nôm na nó là cách một lớp có thể thừa hưởng lại những thuộc tính, phương thức từ một lớp khác và sử dụng chúng như là của bản thân mình."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"constructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Hàm khởi tạo trong kế thừa là gì ?",
+					"content": "Trong kế thừa, Hàm khởi tạo của lớp cơ bản được gọi trước sau đó đó đến hàm khởi tạo của lớp dẫn xuất."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"destructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Hàm hủy trong kế thừa là gì ?",
+					"content": "Trong kế thừa, Hàm hủy được gọi theo trình tự ngược với hàm khởi tạo. Lớp dẫn xuất được gọi trước và sau đó là lớp cơ bản."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"member_func": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa hàm thành viên trong kế thừa ?",
+					"content": "Trong Kế thừa, Hàm thành viên của lớp dẫn xuất có thể có cùng tên với hàm của lớp cơ bản."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"container": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa lớp container trong kế thừa ?",
+					"content": "Lớp container là lớp có thành viên là một đối tượng thuộc lớp khác."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"derived_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Lớp con / lớp dẫn xuất là gì ?",
+					"content": "Lớp con hay còn lại là lớp dẫn xuất (Class Derived) là lớp thừa hưởng các thuộc tính và các hàm của lớp cha. Lớp con có thể cũng có thuộc tính của riêng nó."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"base_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Lớp cha / lớp cơ sở là gì ?",
+					"content": "Lớp cha hay còn gọi là lớp cơ sở (Class Base) là lớp mà các lớp khác thừa hưởng hành vi của nó."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"single_inheritance": true,
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Thừa kế đơn là gì ?",
+					"content": "Thừa kế đơn là tiến trình tạo một lớp mới từ một lớp đã có sẵn."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inheritance": true,
+				"multilevel_inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Đa thừa kế là sao ?",
+					"content": "Đa thừa kế là quá trình tạo ra một lớp mới từ nhiều lớp cơ bản sẵn có. Cho phép ta tích hợp các hành vi của lớp cơ bản vào một lớp duy nhất."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"polymorphism": true
+			},
+			"response": {
+				"text": {
+					"title": "Đa hình là gì ?",
+					"content": "Tính đa hình ( Polymorphism ) là hiện tượng các đối tượng thuộc các lớp khác nhau có thể hiểu cùng 1 thông điệp theo các cách khác nhau."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"interface": true
+			},
+			"response": {
+				"text": {
+					"title": "Khái niệm interface ?",
+					"content": "Interface (giao diện, lớp giao tiếp) là 1 tập các thành phần chỉ có khai báo mà không có phần định nghĩa."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"point": true
+			},
+			"response": {
+				"text": {
+					"title": "Con trỏ là gì ?",
+					"content": "Con trỏ được dùng để trỏ tới tới địa chỉ trên bộ nhớ nơi được dùng để lưu trữ giá trị của biến."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"this": true
+			},
+			"response": {
+				"text": {
+					"title": "Con trỏ this là gì ?",
+					"content": "Mỗi đối tượng có quyền truy cập vào địa chỉ riêng của nó thông qua một con trỏ quan trọng được gọi là con trỏ this. Con trỏ this là một tham số ngầm định cho tất cả các hàm thành viên. Vì vậy, bên trong một hàm thành viên, điều này có thể được sử dụng để chỉ đối tượng gọi."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"casting": true
+			},
+			"response": {
+				"text": {
+					"title": "Ép kiểu là gì ?",
+					"content": "Ép kiểu (Casting) là việc chuyển đổi các biến từ kiểu dữ liệu này sang kiểu dữ liệu khác."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"allocation_array": true
+			},
+			"response": {
+				"text": {
+					"title": "Cấp phát mảng là thế nào ?",
+					"content": "Cấp phát mảng là việc cấp phát bộ nhớ cho mảng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"scope": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa tầm vực ?",
+					"content": "tầm vực dùng để chỉ một ngữ cảnh đóng, trong đó các giá trị và biểu thức được kết hợp với nhau."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"operator": true
+			},
+			"response": {
+				"text": {
+					"title": "Khái niệm toán tử ?",
+					"content": "toán tử là một ký hiệu được sử dụng để thực hiện một phép tính/chức năng nào đó."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"new_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Toán tử new là gì ?",
+					"content": "Toán tử new là toán tử dùng để cấp phát bộ nhớ cho 1 con trỏ."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"delete_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa toán tử delete ?",
+					"content": "là toán tử dùng để giải phóng 1 con trỏ đã được cấp phát trước đó, còn nếu đó là 1 mảng thì dùng delete[]"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"assignment_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Toán tử gán là gì ?",
+					"content": "Toán tử gán là một trường hợp đặc biệt so với các toán tử khác. Nếu trong lớp chưa định nghĩa một phương thức toán tử gán thì trình biên dịch sẽ phát sinh một toán tử gán mặc định để thực hiện câu lệnh gán 2 đối tượng của lớp."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"compare_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Toán tử so sánh là sao ?",
+					"content": "Toán tử so sánh là toán tử dùng để so sánh hai giá trị có cùng kiểu dữ liệu."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"overloading_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Đa năng toán tử là gì ?",
+					"content": "Đa năng toán tử là xử lý để cho phép các toán tử của c++ có thể làm việc với các đối tượng của lớp."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"unary_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa toán tử một ngôi ?",
+					"content": "toán tử một ngôi là hàm một biến."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"binary_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa toán tử hai ngôi ?",
+					"content": "toán tử một ngôi là hàm hai biến."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"static": true
+			},
+			"response": {
+				"text": {
+					"title": "Thành phần tĩnh static là gì ?",
+					"content": "Static trong c++ là dữ liệu của lớp không phải là dữ liệu của đối tượng. Static trong c++ tồn tại như một biến toàn cục."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"copy_constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Hàm khởi tạo sao chép là gì ?",
+					"content": "Hàm khởi tạo sao chép là một constructor mà tạo một đối tượng bằng việc khởi tạo nó với một đối tượng của cùng lớp đó, mà đã được tạo trước đó."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"default_argument_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Hàm với đối số ngầm định là sao ?",
+					"content": "Hàm với đối số ngầm định là hàm tạo có thể được gọi mà không cần cung cấp bất cứ đối số (argument) nào, cho dù hàm tạo được tự động sinh ra hay do người dùng định nghĩa."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"inline_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Hàm tại chỗ là gì ?",
+					"content": "Hàm tại chỗ là một cấu trúc trong ngôn ngữ lập trình được sử dụng để đề nghị với chương trình biên dịch rằng một hàm cụ thể nào đó là đối tượng của việc khai triển nội tuyến (inline expansion); *lb có nghĩa là, nó đề nghị rằng chương trình biên dịch nên chèn toàn bộ thân hàm vào trong từng ngữ cảnh, nơi hàm đó được sử dụng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"friend_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Hàm bạn là gì ?",
+					"content": "Hàm bạn trong c++ là hàm tự do, không thuộc lớp. Tuy nhiên hàm bạn trong c++ có quyền truy cập các thành viên private của class."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"friend_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Khái niệm lớp bạn ?",
+					"content": "Lớp bạn trong c++ cũng tương tự như hàm bạn, việc khai báo lớp bạn sẽ cho phép lớp bạn của lớp kia được truy cập tất cả thành viên của nó."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"virtual_base_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa lớp ảo ?",
+					"content": "lớp ảo là một lớp bên trong lồng nhau , các hàm và biến thành viên có thể được ghi đè và định nghĩa lại bởi các lớp con của lớp bên ngoài."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"override": true
+			},
+			"response": {
+				"text": {
+					"title": "Ghi đè là gì ?",
+					"content": "Ghi đè là Phương thức đã xuất hiện ở lớp cha và xuất hiện tiếp ở lớp con."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"overload": true
+			},
+			"response": {
+				"text": {
+					"title": "Nạp chồng là sao ?",
+					"content": "là các phương thức nằm trong cùng 1 lớp , có cùng tên với nhau nhưng có danh sách đối số khác nhau."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"vector_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Lớp vector là gì ?",
+					"content": "vector trong C++ là một đối tượng dùng để chứa các đối tượng khác, và các đối tượng được chứa này cũng được lưu trữ một cách liên tiếp trong vector."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"float_type": true
+			},
+			"response": {
+				"text": {
+					"title": "Kiểu số thực là gì?",
+					"content": "Kiểu số thực là kiểu dữ liệu dùng để định nghĩa một kiểu số thực."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"int_type": true
+			},
+			"response": {
+				"text": {
+					"title": "Kiểu số nguyên là gì ?",
+					"content": "Kiểu số nguyên là kiểu dữ liệu dùng để định nghĩa một kiểu số nguyên."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"char_type": true
+			},
+			"response": {
+				"text": {
+					"title": "Kiểu ký tự là gì ?",
+					"content": "Kiểu ký tự là kiểu dữ liệu dùng để định nghĩa ký tự."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"string_type": true
+			},
+			"response": {
+				"text": {
+					"title": "Kiểu chuỗi là gì ?",
+					"content": "Kiểu chuỗi là một lớp chuẩn mô tả về về chuỗi kí tự"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"boolean_type": true
+			},
+			"response": {
+				"text": {
+					"title": "Kiểu luận lý là gì ?",
+					"content": "Kiểu luận lý là một kiểu dữ liệu chỉ có thể nhận một trong hai giá trị như đúng/sai (true/false, yes/no, 1/0) nhằm đại diện cho hai giá trị thật (truth value)."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"stack": true
+			},
+			"response": {
+				"text": {
+					"title": "Khái niệm ngăn xếp ?",
+					"content": "ngăn xếp là một cấu trúc dữ liệu trừu tượng hoạt động theo nguyên lý vào sau ra trước."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"queue": true
+			},
+			"response": {
+				"text": {
+					"title": "Khái niệm hàng đợi ?",
+					"content": "hàng đợi là một cấu trúc dữ liệu dùng để lưu giữ các đối tượng theo cơ chế FIFO (viết tắt từ tiếng Anh: First In First Out), nghĩa là vào trước ra trước."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "define",
+				"priority_queue": true
+			},
+			"response": {
+				"text": {
+					"title": "Định nghĩa hàng đợi có độ ưu tiên ?",
+					"content": "Priority queue là một loại container adaptor, được thiết kế đặc biệt để phần tử ở đỉnh luôn luôn là phần tử có độ ưu tiên lớn nhất so với các phần tử khác."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"object": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về đối tượng trong cuộc sống ?",
+					"content": "Sinh viên chắc chắn là đối tượng cần quản lý rồi. Vậy đâu sẽ là khuôn mẫu cho các đối tượng Sinh viên này. *lb Trong trường hợp này, cái Khuôn mẫu ấy hơi trừu tượng xíu, nó sẽ là một hình tượng chung chung với các nhãn như: Giới tính, Tên, Lớp, Tuổi, Quê quán, Chiều cao, Cân nặng."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về class ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_class.png?alt=media&token=1d11183a-8bf8-4b47-aca4-61d419698ec4"
+				}
+			}
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"property": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ vê thuộc tính trong class ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_class.png?alt=media&token=1d11183a-8bf8-4b47-aca4-61d419698ec4"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"method": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về phương thức trong lớp ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_class.png?alt=media&token=1d11183a-8bf8-4b47-aca4-61d419698ec4"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"abstraction": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về tính trừu tượng ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_abstraction.png?alt=media&token=05fcb6be-7dab-4149-a8ea-cc1fdd556411"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về hàm khởi tạo ?",
+					"content": "new dùng để cấp phát bộ nhớ còn delete dùng để giải phóng bộ nhớ đã cấp phát trước đó."
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_constructor.png?alt=media&token=c0d12d5f-c81d-42d1-8d4d-0e9effc1ea5f"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"destructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về hàm hủy ?"			
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_destructor.png?alt=media&token=e88008f7-42c2-4763-828c-3b687ca7243a"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"encapsulation": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về tính đóng gói ?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_encapsulation.png?alt=media&token=72ada33f-bfc1-4fba-b281-40d89bb3c64a"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về tính kế thừa ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true,
+				"constructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về hàm khởi trong kế thừa ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_constructor_inheritance.png?alt=media&token=1651a22a-7456-46da-b05f-078221723208"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true,
+				"destructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về hàm hủy trong kế thừa ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_destructor_inheritance.png?alt=media&token=ec47324e-beb4-4fc9-b104-b91806a99532"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true,
+				"member_func": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Vi dụ về hàm thành viên trong kế thừa ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true,
+				"derived_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về lớp con ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true,
+				"base_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về lớp cha ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"single_inheritance": true,
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về thừa kế đơn ?",
+					"content": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_inheritance_single.png?alt=media&token=73e800bd-c170-495b-be9b-3de8f90fae87"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inheritance": true,
+				"multilevel_inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về đa thừa kế ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_inheritance_multilevel.png?alt=media&token=092dcfc7-8b05-4b42-8910-26e974ebe2c0"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true
+			},
+			"response": {
+				"text": {
+					"title": "Ví dụ về đa hình ?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_polymorphism.png?alt=media&token=29c7e0f7-438c-4a91-a8f4-724dddd04682"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"constructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về constructor trong đa hình?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_constructor_polymorphism.png?alt=media&token=86f7381b-54b1-4509-86b5-961d37af42dd"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"destructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về destructor trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_destructor_polymorphism.png?alt=media&token=060c06ab-6912-4e5a-afb9-156c3d7126a7"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"ambiguity": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về ambiguity trong đa hình?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_ambiguity_polymorphism.png?alt=media&token=6dfca11c-b329-413e-ba50-44cbe020a573"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"base_class": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về base class trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_base_class_polymorphism.png?alt=media&token=dd5b63ef-7be1-49bf-8ad3-4463b1a37a82"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"virtual_base_class": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về virtual base class trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_virtual_base_class_polymorphism.png?alt=media&token=10ac212a-d6fd-4d6d-baba-fbad639f0b4e"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"abstract_class": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về abstract class trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_abstract_class_polymorphism.png?alt=media&token=93bb919b-4fca-48bf-8701-fc490bdbf4e4"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"virtual_func": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về virtual function trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_virtual_function.png?alt=media&token=07a62898-001d-43d5-87bd-5fc9ad132e03"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"pure_virtual_func": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về pure virtual destructor trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_pure_virtual_destructor_function_polymorphism.png?alt=media&token=37839393-c5b5-45b0-863d-3cd69c5d1aff"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"polymorphism": true,
+				"vitural_destructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về virtual destructor trong đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_virtual_destructor_function_polymorphism.png?alt=media&token=a7bb10f8-ab94-4425-85cf-9efff3d61f30"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"interface": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về interface?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_interface.png?alt=media&token=796d9107-6263-4cf5-b9e3-7fe6b6ade042"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"point": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về con trỏ?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_point.png?alt=media&token=2d0cfa32-4258-4aba-b69d-ad0449005c67"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"this": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về con trỏ this?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_this_point.png?alt=media&token=cd6fab80-66a8-442e-a74c-47f65bbffa07"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"scope": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về phạm vi?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"private": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ phạm vi truy cập private?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"public": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ phạm vi truy cập public?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"protected": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ phạm vi truy cập protected?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về operator?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_operation.png?alt=media&token=af403857-d6ee-4ea8-b216-9b1190136239"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"new_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về new operation?",
+					"content": "int *a = new int; // cấp phát bộ nhớ cho con trỏ a thuộc kiểu int (4 bytes) *lb double *arr = new double[5]; // cấp phát 5 ô nhớ cho mảng arr thuộc kiểu double (8 bytes)"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"delete_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về delete operation?",
+					"content": "int *a = new int;// do_something; *lb delete a; // giải phóng con trỏ a đã cấp phát ở trên"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"assignment_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về assing operation?",
+					"content": "arr.assign(10);"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"compare_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về phương thức compare?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_operation_compare.png?alt=media&token=1a61a15e-ecf1-4e09-bb78-961ef0406b29"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"overloading_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về operator overloading?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_overloading_operation.png?alt=media&token=6914eebf-251f-4ca1-82b3-d151f95cfd67"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"unary_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ nạp chồng toán tử một ngôi?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_unary_operation.png?alt=media&token=8fbe609c-8148-48e2-8461-2f3172cf6468"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"operator": true,
+				"binary_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về binary operation?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_binary_operation.png?alt=media&token=11e70f0d-ccba-4e41-a43e-4d5470f6a8a6"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"default_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về ép kiểu ngầm định?",
+					"content": "float f_value = 10.0f; *lb double d_value(f_value);"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"explicit_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về ép kiểu rõ ràng?",
+					"content": "int i_value1 = 10; *lb int i_value2 = 4; *lb float f_value = i_value1 / i_value2;"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"cstyle_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về ép kiểu trong C?",
+					"content": "int i_value1 = 10; *lb int i_value2 = 4; *lb float f_value = i_value1 / i_value2;"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"static_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về static_cast?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_static_cast.png?alt=media&token=d00ef7d5-34ff-40c3-ba2d-bea6542250d7"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"dynamic_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về dynamic_cast?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_dynamic_cast.png?alt=media&token=8c37a57f-51d3-44af-92f6-f1812a533ac4"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"const_casting": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về const_cast?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_const_casting.png?alt=media&token=0b8245ca-d334-4499-90cf-26f4907caeca"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"cast_op": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về cast operator?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_cast_operator.png?alt=media&token=fbdf112b-7562-48d6-ad39-5c38cf160ae3"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://docs.microsoft.com/en-us/cpp/cpp/cast-operator-parens?view=vs-2019",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"static": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về static?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_static.png?alt=media&token=27f0d9f3-a085-43d4-99b4-a121fc8e989d"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"copy_constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về copy constructor?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_copy_constructor.png?alt=media&token=7f7638df-3f41-4e43-b1e5-aebdf619f8a0"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"inline_func": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về inline function?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_inline_function.png?alt=media&token=b9ff096c-726a-4fe5-97a8-3d2335d7af3a"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://www.stdio.vn/articles/inline-functions-trong-c-13",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"friend_func": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về hàm bạn?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_friend_function.png?alt=media&token=36cb80c6-ba32-41cd-beda-3252382ae45f"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://freetuts.net/ham-ban-friend-function-va-lop-ban-friend-class-trong-c++-1801.html",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"friend_class": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về lớp bạn?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_friend_class.png?alt=media&token=afd5c922-14e4-4478-aa56-8f65fc28b991"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://freetuts.net/ham-ban-friend-function-va-lop-ban-friend-class-trong-c++-1801.html",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"overloading_func": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về nạp chồng hàm?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_overloading_function.png?alt=media&token=3eeee9a4-09c7-497a-8b9a-2e28012f387f"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://www.stdio.vn/articles/nap-chong-ham-function-overloading-145",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"override": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về override?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_override.png?alt=media&token=444aa8a0-dbfc-4884-ba6b-7fa8d53a2151"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://viblo.asia/p/override-va-overload-WAyK8V4NlxX",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"overload": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về overload?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_overload.png?alt=media&token=bc908f6f-0a03-41b8-95e5-d0a07b3e2b88"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://viblo.asia/p/override-va-overload-WAyK8V4NlxX",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"dynamic_arr_dimension": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về mảng động một chiều?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_dynamic_arr_dimension.png?alt=media&token=812f42e2-6b63-4907-8d59-9a5c2de9f2f1"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://www.techiedelight.com/dynamic-memory-allocation-in-c-for-2d-3d-array/#2D",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"dynamic_arr_multidimension": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về mảng động đa chiều?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_dynamic_arr_multidimension.png?alt=media&token=9e99a2f6-f70f-46f1-8651-a84bb123beb2"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://www.techiedelight.com/dynamic-memory-allocation-in-c-for-2d-3d-array/#2D",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"value_parameter": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về giá trị truyền vào?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_value_parameter.png?alt=media&token=2bca8743-85a6-4123-a98b-ff21610f415b"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"reference": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về tham chiếu?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_reference_parameter.png?alt=media&token=99f70316-889d-4c02-bfcb-037f39fe4b96"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"stack": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về ngăn xếp?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_stack.png?alt=media&token=4ef96c72-8d4b-4f4a-ba4a-172a24a82831"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://viblo.asia/p/cach-xay-dung-cau-truc-du-lieu-stack-va-queue-L4x5xwwalBM",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"queue": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về hàng chờ?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_queue.png?alt=media&token=8c4d92a0-1fa9-4039-8b8e-234e4ef5a164"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://viblo.asia/p/cach-xay-dung-cau-truc-du-lieu-stack-va-queue-L4x5xwwalBM",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "example",
+				"priority_queue": true
+			},
+			"response": {
+				"text": {
+					"title": "ví dụ về hàng chờ ưu tiên?"
+				},
+				"image":{
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_priority_queue.png?alt=media&token=7ea119e3-78e2-437c-9cc1-40f77974bb74"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://motoo.in/tutorial-su-dung-thu-vien-stl-trong-c-priority-queue/",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"oop": true,
+				"pop": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa lập trình cấu trúc và lập trình hướng đối tượng"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-struct_program-oop.png?alt=media&token=338cc739-42e8-44f3-b075-3a14a064f90a"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"struct": true,
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa struct và class"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-class-struct.png?alt=media&token=fb62f560-73c0-421c-aa92-e5a87b0117f5"
+				}
+			}
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"interface": true,
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa interface và class"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-class-interface.png?alt=media&token=a970385e-be8a-47a1-9a2c-627a00ea68ee"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"interface": true,
+				"abstract_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa abstract class và interface"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-abstract_class-interface.png?alt=media&token=6c596de8-7773-4b0e-9154-131aa98db2d4"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://viblo.asia/p/khac-biet-giua-abstract-class-va-interface-trong-java-DzVkpgRXenW",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"constructor": true,
+				"destructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa constructor và destructor"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-constuctor-destructor.png?alt=media&token=58ad0784-2859-4ef6-b3ea-f0d88c776482"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"new_op": true,
+				"delete_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa new và delete",
+					"content": "new dùng để cấp phát bộ nhớ còn delete dùng để giải phóng bộ nhớ đã cấp phát trước đó."
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"inheritance": true,
+				"constructor": true,
+				"destructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Sự khác nhau giữa constructor và destructor trong kế thừa."			
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-inheritance-constuctor-destructor.png?alt=media&token=fc932a15-f36d-4a88-a4f9-d549224dbc3b"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"single_inheritance": true,
+				"multilevel_inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa đơn kế thừa và kế thừa đa tầng?",
+					"content": "Tính đơn thừa kế: là tính chất cho phép một lớp chỉ có thể kế thừa từ một lớp cơ sở duy nhất. Tính đa thừa kế: là tính chất cho phép một lớp có thể kế thừa từ nhiều lớp cơ sở."
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"virtual_func": true,
+				"pure_virtual_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa hàm ảo và hàm thuần ảo?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-virtual-pure_virtual.png?alt=media&token=d7a96bed-9ab2-4159-9bc7-a8659bf20e50"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"overloading_op": true,
+				"overloading_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa overloading function và overloading operation?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-overloading_function-overloading_operation.png?alt=media&token=3e45a7ef-3f1b-4248-a494-65aa835fc86e"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://dnmtechs.com/vi/bai-15-nap-chong-ham-va-nap-chong-toan-tu-trong-c-plus-plus/",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"private": true,
+				"public": true,
+				"protected": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa private, public và protected?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-public-private-protected.png?alt=media&token=977a7c55-d736-439b-9bf3-8d7a97aacc53"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"private": true,
+				"public": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau private và public?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-public-private.PNG?alt=media&token=959cd218-e69d-4352-a5ba-31a43cf02fe7"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"private": true,
+				"protected": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa private và protected?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-private-protected.PNG?alt=media&token=d69878cf-9a1e-410d-9634-302bb289ae2b"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"public": true,
+				"protected": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa public và protected?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-public-protected.PNG?alt=media&token=f1472b68-29e6-4619-b483-c454d6538da2"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"method": true,
+				"property": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa thuộc tính và phương thức?",
+					"content": "Thuộc tính dùng để lưu trạng thái của đối tượng (state) còn phương thức là cách mà ta giải quyết hành vi của đối tượng hoặc dịch vụ được cung cấp để đáp ứng hành vi của đối tượng"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"inheritance": true,
+				"polymorphism": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa kế thừa và đa hình?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-inheritance-polymorphism.PNG?alt=media&token=16b8e82c-7cc0-436d-bdef-07d698b7fa37"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://techblog.vn/su-khac-biet-cua-ke-thua-va-da-hinh-trong-java",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"derived_class": true,
+				"base_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa lớp cơ sở và lớp thừa kế?",
+					"content": "Một lớp kế thừa có thể truy cập tất cả thành viên không phải là private của lớp cơ sở của nó."
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://vietjack.com/cplusplus/tinh_ke_thua_trong_cplusplus.jsp",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"unary_op": true,
+				"binary_op": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa toán tử một ngôi và toán tử đa ngôi?",
+					"content": "Unary Operators (toán tử đơn ngôi): Là operator tác động tới một toán hạng duy nhất. Ví dụ: (++ , --) *lb Binary Operators (toán tử đa ngôi): Là các operator tác động đến hai toán hạng. Ví dụ: (+ , - , * , /)."
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"overload": true,
+				"override": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa nạp chồng và ghi đè?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-override-overload.PNG?alt=media&token=5b09ec23-50b2-4cf0-bba4-969db180f29e"
+				},
+				"card": {
+					"buttonText": "Tìm hiểu thêm",
+					"buttonUrl": "https://viblo.asia/p/override-va-overload-WAyK8V4NlxX",
+					"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"this": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa this và *this?",
+					"content": "Con trỏ this trả về địa chỉ của vùng nhớ mà nó đang trỏ tới, còn *this trả về giá trị của vùng nhớ mà nó trỏ tới."
+				}
+			}		
+		},
+		{
+			"intent": "iCompare",
+			"parameters": {
+				"eRequest": "different",
+				"is-a": true,
+				"has-a": true
+			},
+			"response": {
+				"text": {
+					"title": "Khác nhau giữa quan hệ is-a và has-a?"
+				},
+				"image": {
+					"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-isa-hasa.png?alt=media&token=10d6230a-271c-4d4b-b124-9b1c805b0b51"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"oop": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc trưng của lập trình hướng đối tượng?",
+					"content": "Tính đóng gói *lb Tính trừu tượng *lb Tính kế thừa *lb Tính đa  hình"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"class": true
+			},
+			"response": {
+				"text": {
+					"title": "Lớp có những đặc điểm gì ?",
+					"content": "được khai báo bằng từ khóa class. *lb nó chứa các biến (còn gọi là thuộc tính) hay các hàm. *lb  Các phần tử của class được quản lý bởi ba thuộc tính truy cập: private, protected hoặc public."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"abstraction": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc trưng của tính trừu tượng hóa ?",
+					"content": "Chỉ hiển thị những thông tin cần thiết và ẩn những thông tin không cần thiết."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"constructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của hàm khởi tạo ?",
+					"content": "không có kiểu trả về rõ ràng. *lb không được kế thừa ngầm và nó thường có các quy tắc khác nhau để chỉ định tầm vực. *lb Hàm tạo thường có tên giống với lớp được khai báo."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"destructor": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của hàm hủy ?",
+					"content": "Nó có thể xảy ra khi thời gian sống của nó được gắn với tầm vực và sự thực thi rời khỏi tầm vực đó, hay khi nó được nhúng vào trong đối tượng khác mà thời gian sống của đối tượng đó kết thúc, hoặc khi nó được cấp phát động và bị giải phóng một cách tường minh."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"encapsulation": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc trưng của tính đóng gói ?",
+					"content": "Tạo ra cơ chế để ngăn ngừa việc gọi phương thức của lớp này tác động hay truy xuất dữ liệu của đối tượng thuộc về lớp khác. *lb Dữ liệu riêng (khi được khai báo là private) của mỗi đối tượng được bảo vệ khỏi sự truy xuất không hợp lệ từ bên ngoài. *lb Người lập trình có thể dựa vào cơ chế này để ngăn ngừa việc gán giá trị không hợp lệ vào thành phần dữ liệu của mỗi đối tượng. *lb Cho phép thay đổi cấu trúc bên trong của một lớp mà không làm ảnh hưởng đến những lớp bên ngoài có sử dụng lớp đó."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của tính kế thừa ?",
+					"content": "Lớp kế thừa có thể sử dụng lại các phương thức và thuộc tính của lớp cha."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"inheritance": true,
+				"constructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của hàm khởi tạo trong kế thừa ?",
+					"content": "luôn luôn được gọi tới khi ta khởi tạo một đối tượng. *lb Hàm khởi tạo có thẻ có tham số hoặc không có tham số, có thể có giá trị trả về hoặc không."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"inheritance": true,
+				"destructor": true,
+				"eConnector": "in"
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của hàm hủy trong kế thừa ?",
+					"content": "tự động gọi sau khi đối tượng bị hủy, nó thường được sử dụng để giải phóng bộ nhớ chương trình. Trong đối tượng hàm hủy có thể có hoặc không."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"single_inheritance": true,
+				"inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của thừa kế đơn ?",
+					"content": "Mỗi lớp chỉ kế thừa từ một lớp duy nhất."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"inheritance": true,
+				"multilevel_inheritance": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của đa thừa kế ?",
+					"content": "Có thể kế thừa từ  nhiều lớp."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"polymorphism": true
+			},
+			"response": {
+				"text": {
+					"title": "Đa hình có đặc điểm gì ?",
+					"content": "trong từng trường hợp, hoàn cảnh khác nhau thì đối tượng có hình thái khác nhau tùy thuộc vào từng ngữ cảnh."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"interface": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của interface ?",
+					"content": "- Chỉ chứa khai báo không chứa phần định nghĩa (giống phương thức thuần ảo) tuy nhiên không cần phải khai báo từ khóa *abstract* *lb - Việc ghi đè 1 thành phần trong interface cũng không cần từ khoá *override*.  *lb - Không thể khai báo phạm vi truy cập cho các thành phần bên trong interface. Các thành phần này sẽ mặc định là *public* . *lb không chứa các thuộc tính (các biến) dù là hằng số hay biến tĩnh vẫn không được.  *lb Không có *constructor* cũng không có *destructor* *lb - Các lớp có thể thực thi nhiều interface cùng lúc *lb - Một interface có thể kế thừa nhiều interface khác nhưng không thể kế thừa bất kỳ lớp nào."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"point": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của con trỏ ?",
+					"content": "chứa địa chỉ của một vùng trong bộ nhớ và có kiểu xác định. *lb Kích thước của con trỏ tương đương của int, tuy nhiên kích thước của vùng nhớ được trỏ tới là không xác định"
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"casting": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của việc ép kiểu ?",
+					"content": "chuyển đổi một biến từ một kiểu dữ liệu này sang kiểu dữ liệu khác. "
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"static": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của thành phần static ?",
+					"content": "Từ khóa static có thể được sử dụng để khai báo biến, dù đặt bên trong hay bên ngoài những khối lệnh, vẫn khiến cho biến đó có hiệu lực tương tự như biến toàn cục."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"friend_func": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của hàm bạn ?",
+					"content": "dữ liệu được bảo vệ (protected) và riêng tư (private) của một lớp có thể được truy cập bằng cách sử dụng hàm."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"friend_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của lớp bạn ?",
+					"content": "có thể truy cập cả các thành viên riêng tư và được bảo vệ của lớp mà nó đã được khai báo là friend."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"virtual_base_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của hàm ảo ?",
+					"content": "có thể thừa kế và ghi đè được để tạo điều kiện cho điều phối động."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"overload": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của việc nạp chồng ",
+					"content": "trong một lớp có nhiều phương thức cùng tên nhưng: *lb Khác nhau về số đối số truyền vào và các đối số có cùng kiểu dữ liệu. *lb Có cùng số đối số truyền vào và các đối số không có cùng kiểu dữ liệu. *lb Khác nhau trình tự kiểu dữ liệu của các đối số."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"vector_class": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của lớp vector ?",
+					"content": "Tự động tăng kích thước."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"stack": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm cúa stack ?",
+					"content": " phần tử cuối cùng được chèn vào ngăn xếp sẽ là phần tử đầu tiên được lấy ra khỏi ngăn xếp."
+				}
+			}		
+		},
+		{
+			"intent": "iWhat",
+			"parameters": {
+				"eRequest": "specification",
+				"queue": true
+			},
+			"response": {
+				"text": {
+					"title": "Đặc điểm của queue ?",
+					"content": " phần tử cuối cùng được chèn vào hàng đợi sẽ là phần tử cuối cùng được lấy ra khỏi hàng đợi. *lb ở một đầu không thể xảy ra hai hành động thêm và xóa đồng thời."
+				}
+			}		
+		}
+	
+	
+]

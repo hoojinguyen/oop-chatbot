@@ -1,0 +1,264 @@
+[
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"oop": true
+		},
+		"response": {
+			"text": {
+                "title": "Ưu điểm của lập trình hướng đối tượng ?",
+                "content": "- Dễ dàng quản lý code khi có sự thay đổi chương trình. *lb - Dễ mở rộng dự án. *lb - Tiết kiệm được tài nguyên đáng kể cho hệ thống. *lb - Có tính bảo mật cao. *lb - Có tính tái sử dụng cao."
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"class": true
+		},
+		"response": {
+			"text": {
+                "title": "Ưu điểm của  việc sử dụng class ?",
+                "content": "Có thể xử lý các loại tham số khác nhau. *lb Trình biên dịch tạo các lớp chỉ cho các loại được sử dụng. Nếu mẫu được khởi tạo cho kiểu int, trình biên dịch chỉ tạo một phiên bản int cho lớp mẫu c ++. *lb Giảm nỗ lực mã hóa cho các loại dữ liệu khác nhau thành một bộ mã. *lb Các nỗ lực kiểm tra và gỡ lỗi bị giảm."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"reusability": true
+		},
+		"response": {
+			"text": {
+                "title": "Lợi ích của việc tái sử dụng ?",
+                "content": " chúng ta không cần phải viết lại mã tương tự trong lớp con. Điều này khiến chúng ta viết ít mã hơn và mã trở nên dễ đọc hơn nhiều."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"encapsulation": true
+		},
+		"response": {
+			"text": {
+                "title": "Đóng gói có những ưu điểm như thế nào ?",
+                "content": "Tính đóng gói tránh truy cập từ code bên ngoài, nghĩa là code bên ngoài không thể trực tiếp nhìn thấy và thay đổi trạng thái bên trong của đối tượng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Điểm mạnh của việc sử dụng kế thừa ?",
+				"content": "- Cho phép xây dựng 1 lớp mới từ lớp đã có. *lb Lớp mới gọi là lớp con (subclass) hay lớp dẫn xuất (derived class). *lb Lớp đã có gọi là lớp cha (superclass) hay lớp cơ sở (base class). *lb - Cho phép chia sẽ các thông tin chung nhằm tái sử dụng và đồng thời giúp ta dễ dàng nâng cấp, dễ dàng bảo trì. *lb - Định nghĩa sự tương thích giữa các lớp, nhờ đó ta có thể chuyển kiểu tự động (sẽ được trình bày trong bài ĐA HÌNH TRONG LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG)."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+            "inheritance": true,
+            "multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Lợi ích của đa kế thừa ?",
+				"content": "Đa kế thừa cho phép lớp dẫn xuất kế thừa các thành phần từ nhiều lớp cơ sở."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Đa hình có ưu điểm gì ?",
+				"content": "Tính đa hình cung cấp khả năng cho phép người lập trình gọi trước một phương thức của đối tượng, tuy chưa xác định đối tượng có phương thức muốn gọi hay không. *lb Đến khi thực hiện (run-time), chương trình mới xác định được đối tượng và gọi phương thức tương ứng của đối tượng đó. *lb Kết nối trễ giúp chương trình được uyển chuyển hơn, chỉ yêu cầu đối tượng cung cấp đúng phương thức cần thiết là đủ."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"interface": true
+		},
+		"response": {
+			"text": {
+                "title": "Điểm mạnh của interface ?",
+                "content": "- Có thể kế thừa nhiều interface(tính đa hình). *lb - Xây dựng được bộ khung mẫu mà các lớp phải follow theo. *lb - Giúp quản lý tốt, nắm bắt được các chức năng phải có cho một đối tượng nào đó. *lb - giảm mã và cải thiện hiệu suất."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"point": true
+		},
+		"response": {
+			"text": {
+                "title": "Ưu điểm của con trỏ ?",
+                "content": "- Có thể dùng để cấp phát bộ nhớ động. *lb - Truyền các tham số (các đối tượng, các mảng, các chuỗi ...) hiệu quả hơn (thay vì truyền giá trị của một biến, ta có thể truyền địa chỉ của biến đó). *lb - Giúp hàm có thể trả về nhiều hơn một giá trị. *lb - Xây dựng các cấu trúc dữ liệu phức tạp hơn như linked list, tree, và graph. "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"this": true
+		},
+		"response": {
+			"text": {
+                "title": "Điểm mạnh của con trỏ this ?",
+                "content": "- Nó có thể được sử dụng để truyền đối tượng hiện tại làm tham số cho phương thức khác. *lb - Nó có thể được sử dụng để tham chiếu đến thể hiện hiện tại của lớp (như ở ví dụ trên). *lb - Nó có thể được sử dụng để khai báo các chỉ mục."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "advantage",
+			"operator": true,
+            "overloading_op": true
+		},
+		"response": {
+			"text": {
+                "title": "Toán tử đa năng có ưu điểm gì ?",
+                "content": "Giúp cho chương trình dễ hiểu và dễ truy tìm lỗi."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "advantage",
+			"casting": true
+		},
+		"response": {
+			"text": {
+                "title": "Ưu điểm của việc ép kiểu ?",
+                "content": "- Điều này được thực hiện để tận dụng các tính năng nhất định của phân cấp loại hoặc biểu diễn kiểu. *lb - Nó giúp tính toán các biểu thức có chứa các biến của các loại dữ liệu khác nhau."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "advantage",
+			"static": true
+		},
+		"response": {
+			"text": {
+                "title": "Lợi ích của việc sử dụng thành phần static ?",
+                "content": "giúp các đối tượng khác sử dụng Chuỗi hoặc các hàm hữu ích mà bạn không cần tạo đối tượng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "advantage",
+			"copy_constructor": true
+		},
+		"response": {
+			"text": {
+                "title": "Ưu điểm của hàm dựng sao chép ?",
+                "content": "giúp dễ dàng sao chép các đối tượng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"friend_func": true
+		},
+		"response": {
+			"text": {
+                "title": "Lợi ích của việc sử dụng hàm bạn ?",
+                "content": "một hàm không phải là thành viên của lớp không thể truy cập dữ liệu thành viên của lớp đó. "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"friend_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Lợi ích của việc sử dụng lớp bạn ?",
+                "content": "một hàm không phải là thành viên của lớp có thể truy cập dữ liệu thành viên của lớp đó. "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"overloading_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Hàm đa năng có ưu điểm gì ?",
+				"content": "- việc sử dụng chức năng nạp chồng là để tiết kiệm không gian bộ nhớ, tính nhất quán và khả năng đọc. *lb - Chúng ta có thể phát triển nhiều hơn một chức năng có cùng tên."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"virtual_base_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Điểm mạnh của lớp ảo so vơi các lớp khác là gì ?",
+                "content": "- Các chức năng ảo được sử dụng để đạt được đa hình thời gian chạy. *lb - Nếu một lớp có nguồn gốc từ một lớp có hàm ảo, thì định nghĩa hàm có thể được định nghĩa lại trong lớp dẫn xuất."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"overload": true
+		},
+		"response": {
+			"text": {
+				"title": "Điểm mạnh của việc nạp chồng toán tử ?",
+				"content": "- Có khả năng tạo ra nhiều phương thức cùng tên, nhưng với các tham số khác nhau. *lb - Ưu điểm chính của điều này là mã sạch. *lb - Cung cấp cho các lập trình viên khả năng gọi một phương thức tương tự cho các loại dữ liệu khác nhau."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "advantage",
+			"vector_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Sử dụng lớp vector có những ưu điểm gì ?",
+                "content": "- Kích thước của vectơ có thể thay đổi khi cần thiết. *lb - Một số loại đối tượng khác nhau có thể tồn tại trong cùng một Vector."
+			}
+		}		
+	}
+]

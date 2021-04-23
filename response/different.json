@@ -1,0 +1,372 @@
+[
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"oop": true,
+			"pop": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa lập trình cấu trúc và lập trình hướng đối tượng"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-struct_program-oop.png?alt=media&token=338cc739-42e8-44f3-b075-3a14a064f90a"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"struct": true,
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa struct và class"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-class-struct.png?alt=media&token=fb62f560-73c0-421c-aa92-e5a87b0117f5"
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"interface": true,
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa interface và class"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-class-interface.png?alt=media&token=a970385e-be8a-47a1-9a2c-627a00ea68ee"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"interface": true,
+			"abstract_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa abstract class và interface"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-abstract_class-interface.png?alt=media&token=6c596de8-7773-4b0e-9154-131aa98db2d4"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://viblo.asia/p/khac-biet-giua-abstract-class-va-interface-trong-java-DzVkpgRXenW",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"constructor": true,
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa constructor và destructor"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-constuctor-destructor.png?alt=media&token=58ad0784-2859-4ef6-b3ea-f0d88c776482"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"new_op": true,
+			"delete_op": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa new và delete",
+				"content": "new dùng để cấp phát bộ nhớ còn delete dùng để giải phóng bộ nhớ đã cấp phát trước đó."
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"inheritance": true,
+			"constructor": true,
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự khác nhau giữa constructor và destructor trong kế thừa."			
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-inheritance-constuctor-destructor.png?alt=media&token=fc932a15-f36d-4a88-a4f9-d549224dbc3b"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"single_inheritance": true,
+			"multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa đơn kế thừa và kế thừa đa tầng?",
+				"content": "Tính đơn thừa kế: là tính chất cho phép một lớp chỉ có thể kế thừa từ một lớp cơ sở duy nhất. Tính đa thừa kế: là tính chất cho phép một lớp có thể kế thừa từ nhiều lớp cơ sở."
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"virtual_func": true,
+			"pure_virtual_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa hàm ảo và hàm thuần ảo?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-virtual-pure_virtual.png?alt=media&token=d7a96bed-9ab2-4159-9bc7-a8659bf20e50"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"overloading_op": true,
+			"overloading_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa overloading function và overloading operation?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-overloading_function-overloading_operation.png?alt=media&token=3e45a7ef-3f1b-4248-a494-65aa835fc86e"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://dnmtechs.com/vi/bai-15-nap-chong-ham-va-nap-chong-toan-tu-trong-c-plus-plus/",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"private": true,
+			"public": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa private, public và protected?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-public-private-protected.png?alt=media&token=977a7c55-d736-439b-9bf3-8d7a97aacc53"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"private": true,
+			"public": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau private và public?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-public-private.PNG?alt=media&token=959cd218-e69d-4352-a5ba-31a43cf02fe7"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"private": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa private và protected?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-private-protected.PNG?alt=media&token=d69878cf-9a1e-410d-9634-302bb289ae2b"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"public": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa public và protected?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-public-protected.PNG?alt=media&token=f1472b68-29e6-4619-b483-c454d6538da2"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://stackjava.com/java-core/cac-loai-access-modifier-trong-java-public-protected-default-private.html",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"method": true,
+			"property": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa thuộc tính và phương thức?",
+				"content": "Thuộc tính dùng để lưu trạng thái của đối tượng (state) còn phương thức là cách mà ta giải quyết hành vi của đối tượng hoặc dịch vụ được cung cấp để đáp ứng hành vi của đối tượng"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"inheritance": true,
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa kế thừa và đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-inheritance-polymorphism.PNG?alt=media&token=16b8e82c-7cc0-436d-bdef-07d698b7fa37"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://techblog.vn/su-khac-biet-cua-ke-thua-va-da-hinh-trong-java",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"derived_class": true,
+			"base_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa lớp cơ sở và lớp thừa kế?",
+				"content": "Một lớp kế thừa có thể truy cập tất cả thành viên không phải là private của lớp cơ sở của nó."
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://vietjack.com/cplusplus/tinh_ke_thua_trong_cplusplus.jsp",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"unary_op": true,
+			"binary_op": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa toán tử một ngôi và toán tử đa ngôi?",
+				"content": "Unary Operators (toán tử đơn ngôi): Là operator tác động tới một toán hạng duy nhất. Ví dụ: (++ , --) *lb Binary Operators (toán tử đa ngôi): Là các operator tác động đến hai toán hạng. Ví dụ: (+ , - , * , /)."
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"overload": true,
+			"override": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa nạp chồng và ghi đè?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-override-overload.PNG?alt=media&token=5b09ec23-50b2-4cf0-bba4-969db180f29e"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://viblo.asia/p/override-va-overload-WAyK8V4NlxX",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"this": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa this và *this?",
+				"content": "Con trỏ this trả về địa chỉ của vùng nhớ mà nó đang trỏ tới, còn *this trả về giá trị của vùng nhớ mà nó trỏ tới."
+			}
+		}		
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "different",
+			"is-a": true,
+			"has-a": true
+		},
+		"response": {
+			"text": {
+				"title": "Khác nhau giữa quan hệ is-a và has-a?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/iCompare%2Fcompare-isa-hasa.png?alt=media&token=10d6230a-271c-4d4b-b124-9b1c805b0b51"
+			}
+		}		
+	}
+]

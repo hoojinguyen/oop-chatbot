@@ -1,0 +1,270 @@
+[
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"method": true,
+			"property": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa method và property",
+				"content": "Chúng đều là thành phần của 1 class."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"public": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa public và protected",
+				"content": "*public* và *protected* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"private": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa private và protected",
+				"content": "*private* và *protected* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"private": true,
+			"public": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa private và public",
+				"content": "*private* và *public* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"overloading_func": true,
+			"overriding_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa hàm nạp chồng và hàm ghi đè",
+				"content": "Đều cho phép bạn xác định nhiều hơn một định nghĩa cho một tên hàm hoặc một toán tử trong cùng phạm vi (scope)."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"virtual_func": true,
+			"pure_virtual_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa virtual funtion và pure vitural function",
+				"content": "Đều là một hàm thành viên trong lớp cơ sở mà bạn muốn xác định lại trong các lớp dẫn xuất."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"single_inheritance": true,
+			"multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau đơn kế thừa và đa kế thừa",
+				"content": "Là cách 1 lớp có thể thừa hưởng lại những thuộc tính, phương thức từ 1 lớp khác và sử dụng chúng như là của bản thân mình, nói cách khác là dùng để biểu diễn mối quan hệ đặc biệt hoá – tổng quát hoá giữa các lớp."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"is-a": true,
+			"has-a": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa quan hệ is-a và has-a",
+				"content": "Đều cung cấp khả năng sử dụng lại mã"
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"constructor": true,
+			"destructor": true,
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa constructor va destructor trong kế thừa",
+				"content": "Đều không được các lớp con thừa kế."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"constructor": true,
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa contructor và destructor",
+				"content": "Đều là hàm thành viên đặc biệt của một lớp."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"interface": true,
+			"abstract_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa abstract class và interface",
+				"content": "Đều cung cấp khả năng mở rộng cho một class."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"interface": true,
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa class và interface",
+				"content": "Cả Class và Interface đều được sử dụng để tạo các kiểu tham chiếu mới."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"struct": true,
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa Class và struct",
+				"content": "Đều định nghĩa một đối tượng."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"struct_program": true,
+			"class_program": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa lập trình cấu trúc và lập trình hướng đối tượng",
+				"content": "Cả hai đều là các quy trình lập trình, đều là ngôn ngữ lập trình sử dụng lập trình cấp cao để giải quyết vấn đề nhưng sử dụng các phương pháp khác nhau."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"private": true,
+			"public": true,
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa private, public và protected",
+				"content": "Các từ khóa *private*, *public* và *protected* quy định quyền truy cập của các thuộc tính, phương thức, hay lớp được khai báo với từ khóa đó. "
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"unary_op": true,
+			"binary_op": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa toán tử đơn ngôi và toán tử đa ngôi",
+				"content": "Đều là toán tử số học, là các operator được sử dụng để thực hiện các phép tính toán học lên toán hạng.*lb *Ví dụ*: ( +, -, *, /, %, ++, --)"
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"override": true,
+			"overload": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa nạp chồng và ghi đè",
+				"content": "Chúng là 2 khái niệm đi liền với tính đa hình trong lập trình hướng đối tượng."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"derived_class": true,
+			"base_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa lớp cơ sở và lớp kế thừa",
+				"content": "Khi định nghĩa một lớp mới kế thừa một lớp hiện tại thì lớp mới gọi là *lớp kế thừa* (derived class) và lớp hiện tại sẽ là *lớp cơ sở* (base class) của lớp đó."
+			}
+		}
+	},
+	{
+		"intent": "iCompare",
+		"parameters": {
+			"eRequest": "same",
+			"inheritance": true,
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Sự giống nhau giữa kế thừa và đa hình",
+				"content": "Kế thừa và đa hình là các khái niệm có liên quan với nhau, vì đa hình áp dụng cho các lớp cũng thực hiện khái niệm kế thừa."
+			}
+		}
+	}
+]

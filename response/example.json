@@ -1,0 +1,1047 @@
+[
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"object": true
+		},
+		"response": {
+			"text": {
+                "title": "Ví dụ về đối tượng trong cuộc sống ?",
+                "content": "Sinh viên chắc chắn là đối tượng cần quản lý rồi. Vậy đâu sẽ là khuôn mẫu cho các đối tượng Sinh viên này. *lb Trong trường hợp này, cái Khuôn mẫu ấy hơi trừu tượng xíu, nó sẽ là một hình tượng chung chung với các nhãn như: Giới tính, Tên, Lớp, Tuổi, Quê quán, Chiều cao, Cân nặng."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về class ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_class.png?alt=media&token=1d11183a-8bf8-4b47-aca4-61d419698ec4"
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"property": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ vê thuộc tính trong class ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_class.png?alt=media&token=1d11183a-8bf8-4b47-aca4-61d419698ec4"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"method": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về phương thức trong lớp ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_class.png?alt=media&token=1d11183a-8bf8-4b47-aca4-61d419698ec4"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"abstraction": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về tính trừu tượng ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_abstraction.png?alt=media&token=05fcb6be-7dab-4149-a8ea-cc1fdd556411"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"constructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về hàm khởi tạo ?",
+				"content": "new dùng để cấp phát bộ nhớ còn delete dùng để giải phóng bộ nhớ đã cấp phát trước đó."
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_constructor.png?alt=media&token=c0d12d5f-c81d-42d1-8d4d-0e9effc1ea5f"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về hàm hủy ?"			
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_destructor.png?alt=media&token=e88008f7-42c2-4763-828c-3b687ca7243a"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"encapsulation": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về tính đóng gói ?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_encapsulation.png?alt=media&token=72ada33f-bfc1-4fba-b281-40d89bb3c64a"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về tính kế thừa ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true,
+            "constructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về hàm khởi trong kế thừa ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_constructor_inheritance.png?alt=media&token=1651a22a-7456-46da-b05f-078221723208"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true,
+            "destructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về hàm hủy trong kế thừa ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_destructor_inheritance.png?alt=media&token=ec47324e-beb4-4fc9-b104-b91806a99532"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true,
+            "member_func": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "Vi dụ về hàm thành viên trong kế thừa ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true,
+			"derived_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về lớp con ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true,
+			"base_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về lớp cha ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_parent_child.png?alt=media&token=222b385d-b52f-42eb-b67b-e167eb882b48"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"single_inheritance": true,
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về thừa kế đơn ?",
+				"content": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_inheritance_single.png?alt=media&token=73e800bd-c170-495b-be9b-3de8f90fae87"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"inheritance": true,
+			"multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về đa thừa kế ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_inheritance_multilevel.png?alt=media&token=092dcfc7-8b05-4b42-8910-26e974ebe2c0"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Ví dụ về đa hình ?"
+			},
+			"image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_polymorphism.png?alt=media&token=29c7e0f7-438c-4a91-a8f4-724dddd04682"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "constructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về constructor trong đa hình?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_constructor_polymorphism.png?alt=media&token=86f7381b-54b1-4509-86b5-961d37af42dd"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "destructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về destructor trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_destructor_polymorphism.png?alt=media&token=060c06ab-6912-4e5a-afb9-156c3d7126a7"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "ambiguity": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về ambiguity trong đa hình?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_ambiguity_polymorphism.png?alt=media&token=6dfca11c-b329-413e-ba50-44cbe020a573"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "base_class": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về base class trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_base_class_polymorphism.png?alt=media&token=dd5b63ef-7be1-49bf-8ad3-4463b1a37a82"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "virtual_base_class": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về virtual base class trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_virtual_base_class_polymorphism.png?alt=media&token=10ac212a-d6fd-4d6d-baba-fbad639f0b4e"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "abstract_class": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về abstract class trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_abstract_class_polymorphism.png?alt=media&token=93bb919b-4fca-48bf-8701-fc490bdbf4e4"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "virtual_func": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về virtual function trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_virtual_function.png?alt=media&token=07a62898-001d-43d5-87bd-5fc9ad132e03"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "pure_virtual_func": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về pure virtual destructor trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_pure_virtual_destructor_function_polymorphism.png?alt=media&token=37839393-c5b5-45b0-863d-3cd69c5d1aff"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"polymorphism": true,
+            "vitural_destructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về virtual destructor trong đa hình?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_virtual_destructor_function_polymorphism.png?alt=media&token=a7bb10f8-ab94-4425-85cf-9efff3d61f30"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"interface": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về interface?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_interface.png?alt=media&token=796d9107-6263-4cf5-b9e3-7fe6b6ade042"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"point": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về con trỏ?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_point.png?alt=media&token=2d0cfa32-4258-4aba-b69d-ad0449005c67"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"this": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về con trỏ this?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_this_point.png?alt=media&token=cd6fab80-66a8-442e-a74c-47f65bbffa07"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"scope": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về phạm vi?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"private": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ phạm vi truy cập private?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"public": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ phạm vi truy cập public?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"protected": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ phạm vi truy cập protected?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_scope.png?alt=media&token=92b08558-274b-4072-9e7b-60c0ba28dffe"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+			"operator": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về operator?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_operation.png?alt=media&token=af403857-d6ee-4ea8-b216-9b1190136239"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "new_op": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về new operation?",
+                "content": "int *a = new int; // cấp phát bộ nhớ cho con trỏ a thuộc kiểu int (4 bytes) *lb double *arr = new double[5]; // cấp phát 5 ô nhớ cho mảng arr thuộc kiểu double (8 bytes)"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "delete_op": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về delete operation?",
+                "content": "int *a = new int;// do_something; *lb delete a; // giải phóng con trỏ a đã cấp phát ở trên"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "assignment_op": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về assing operation?",
+                "content": "arr.assign(10);"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "compare_op": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về phương thức compare?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_operation_compare.png?alt=media&token=1a61a15e-ecf1-4e09-bb78-961ef0406b29"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "overloading_op": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về operator overloading?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_overloading_operation.png?alt=media&token=6914eebf-251f-4ca1-82b3-d151f95cfd67"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "unary_op": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ nạp chồng toán tử một ngôi?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_unary_operation.png?alt=media&token=8fbe609c-8148-48e2-8461-2f3172cf6468"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "operator": true,
+            "binary_op": true
+		},
+		"response": {
+			"text": {
+				"title": "ví dụ về binary operation?"
+			},
+			"image": {
+				"imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_binary_operation.png?alt=media&token=11e70f0d-ccba-4e41-a43e-4d5470f6a8a6"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "default_casting": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về ép kiểu ngầm định?",
+                "content": "float f_value = 10.0f; *lb double d_value(f_value);"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "explicit_casting": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về ép kiểu rõ ràng?",
+                "content": "int i_value1 = 10; *lb int i_value2 = 4; *lb float f_value = i_value1 / i_value2;"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "cstyle_casting": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về ép kiểu trong C?",
+                "content": "int i_value1 = 10; *lb int i_value2 = 4; *lb float f_value = i_value1 / i_value2;"
+			},
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "static_casting": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về static_cast?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_static_cast.png?alt=media&token=d00ef7d5-34ff-40c3-ba2d-bea6542250d7"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://cpp.daynhauhoc.com/4/2-ep-kieu-du-lieu/",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "dynamic_casting": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về dynamic_cast?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_dynamic_cast.png?alt=media&token=8c37a57f-51d3-44af-92f6-f1812a533ac4"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "const_casting": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về const_cast?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_const_casting.png?alt=media&token=0b8245ca-d334-4499-90cf-26f4907caeca"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "cast_op": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về cast operator?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_cast_operator.png?alt=media&token=fbdf112b-7562-48d6-ad39-5c38cf160ae3"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://docs.microsoft.com/en-us/cpp/cpp/cast-operator-parens?view=vs-2019",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "static": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về static?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_static.png?alt=media&token=27f0d9f3-a085-43d4-99b4-a121fc8e989d"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "copy_constructor": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về copy constructor?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_copy_constructor.png?alt=media&token=7f7638df-3f41-4e43-b1e5-aebdf619f8a0"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "inline_func": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về inline function?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_inline_function.png?alt=media&token=b9ff096c-726a-4fe5-97a8-3d2335d7af3a"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://www.stdio.vn/articles/inline-functions-trong-c-13",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "friend_func": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về hàm bạn?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_friend_function.png?alt=media&token=36cb80c6-ba32-41cd-beda-3252382ae45f"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://freetuts.net/ham-ban-friend-function-va-lop-ban-friend-class-trong-c++-1801.html",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "friend_class": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về lớp bạn?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_friend_class.png?alt=media&token=afd5c922-14e4-4478-aa56-8f65fc28b991"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://freetuts.net/ham-ban-friend-function-va-lop-ban-friend-class-trong-c++-1801.html",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "overloading_func": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về nạp chồng hàm?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_overloading_function.png?alt=media&token=3eeee9a4-09c7-497a-8b9a-2e28012f387f"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://www.stdio.vn/articles/nap-chong-ham-function-overloading-145",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "override": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về override?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_override.png?alt=media&token=444aa8a0-dbfc-4884-ba6b-7fa8d53a2151"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://viblo.asia/p/override-va-overload-WAyK8V4NlxX",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "overload": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về overload?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_overload.png?alt=media&token=bc908f6f-0a03-41b8-95e5-d0a07b3e2b88"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://viblo.asia/p/override-va-overload-WAyK8V4NlxX",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "dynamic_arr_dimension": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về mảng động một chiều?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_dynamic_arr_dimension.png?alt=media&token=812f42e2-6b63-4907-8d59-9a5c2de9f2f1"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://www.techiedelight.com/dynamic-memory-allocation-in-c-for-2d-3d-array/#2D",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "dynamic_arr_multidimension": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về mảng động đa chiều?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_dynamic_arr_multidimension.png?alt=media&token=9e99a2f6-f70f-46f1-8651-a84bb123beb2"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://www.techiedelight.com/dynamic-memory-allocation-in-c-for-2d-3d-array/#2D",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "value_parameter": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về giá trị truyền vào?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_value_parameter.png?alt=media&token=2bca8743-85a6-4123-a98b-ff21610f415b"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "reference": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về tham chiếu?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_reference_parameter.png?alt=media&token=99f70316-889d-4c02-bfcb-037f39fe4b96"
+            }
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "stack": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về ngăn xếp?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_stack.png?alt=media&token=4ef96c72-8d4b-4f4a-ba4a-172a24a82831"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://viblo.asia/p/cach-xay-dung-cau-truc-du-lieu-stack-va-queue-L4x5xwwalBM",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "queue": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về hàng chờ?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_queue.png?alt=media&token=8c4d92a0-1fa9-4039-8b8e-234e4ef5a164"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://viblo.asia/p/cach-xay-dung-cau-truc-du-lieu-stack-va-queue-L4x5xwwalBM",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "example",
+            "priority_queue": true
+		},
+		"response": {
+			"text": {
+                "title": "ví dụ về hàng chờ ưu tiên?"
+            },
+            "image":{
+                "imageUrl": "https://firebasestorage.googleapis.com/v0/b/test-dphgsx.appspot.com/o/Example%2Fexample_priority_queue.png?alt=media&token=7ea119e3-78e2-437c-9cc1-40f77974bb74"
+            },
+			"card": {
+				"buttonText": "Tìm hiểu thêm",
+				"buttonUrl": "https://motoo.in/tutorial-su-dung-thu-vien-stl-trong-c-priority-queue/",
+				"title": "Bấm nút bên dưới để hiểu thêm nè :D"
+			}
+		}		
+	}
+]

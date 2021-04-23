@@ -1,0 +1,291 @@
+[
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "disadvantage",
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Nhược điểm của việc sử dụng kế thừa",
+				"content": "Nhược điểm chính của kế thừa là hai lớp (lớp cơ sở và lớp kế thừa) được liên kết chặt chẽ với nhau, đó là các lớp phụ thuộc lẫn nhau. Nếu chức năng của lớp cơ sở bị thay đổi thì các thay đổi cũng phải được thực hiện trên các lớp con."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "disadvantage",
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+				"title": "Nhược điểm của đa hình",
+				"content": "Nhược điểm của tính đa hình:*lb- Khó đọc code hơn.*lb- Tốn nhiều thời gian để thiết kế."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "disadvantage",
+			"interface": true
+		},
+		"response": {
+			"text": {
+				"title": "Nhược điểm của interface",
+				"content": "Mỗi khi định nghĩa thêm tính năng, các class impelement nó đồng lọat phải thêm tính năng đó, khả năng cao sẽ không có xử lý gì."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "disadvantage",
+			"static": true
+		},
+		"response": {
+			"text": {
+				"title": "Nhược điểm của static",
+				"content": "*static* hoạt động như một biến toàn cục và vì điều này mà khi sử dụng static trong chương trình thì nó sẽ chiếm nhiều tài nguyên hơn các thành phần thường."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "disadvantage",
+			"friend_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Nhược điểm của hàm friend",
+				"content": "- class con không được kế thừa hàm friend của class cha.*lb- chúng không thể được khai báo static hoặc từ bên ngoài."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"object": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo đối tượng (java):",
+				"code": "<class-name> <name> = new <class-name>();",
+				"content": "Trong đó:*lb *new* là 1 toán tử mà sẽ cấp phát vùng nhớ của 1 đối tượng khi chạy chương trình (runtime).*lb *name* là biến lưu tham chiếu của đối tượng."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"class": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo lớp (java):",
+				"code": "class <class-name> { *lb // thân của lớp *lb }",
+				"content": "Việc khai báo lớp được đặt bên trong một khối mã. Nói cách khác, thân của lớp được đặt trong cặp ngoặc nhọn ({}). Trong thân lớp, ta có thể khai báo các thành phần như trường, phương thức, và hàm tạo."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"property": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách biễu diễn thuộc tính (java):",
+				"code": "[modifier] <data-type> <name>;",
+				"content": "Trong đó:*lb *modifier* là một từ khóa tùy chọn xác định mức độ truy cập của một biến thể hiện, nó có thể là private, protected hoặc public.*lb *data-type* xác định kiểu dữ liệu của biến.*lb *name* Xác định tên của biến."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"method": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách biểu diễn phương thức trong lớp (java):",
+				"code": "[modifier] <return-type> <name> ([parameter-list])*lb { *lb  // Thân của phương thức *lb }",
+				"content": "Trong đó:*lb *modifier* Xác định mức truy cập của một phương thức thể hiện.*lb *return-type* Xác định kiểu dữ liệu của giá trị mà được trả về bởi phương thức.*lb *name* Là tên phương thức.*lb *parameter-list* Là các giá trị truyền tới phương thức."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"abstract_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo lớp trừu tượng (java):",
+				"code": "abstract class <class-name> { *lb // Khai báo các trường *lb // Định nghĩa các phương thức cụ thể *lb //[Khai báo các phương thức trừu tượng]*lb }",
+				"content": "Trong đó *lb *abstract*: chỉ ra rằng lớp và phương thức là trừu tượng."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"constructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo hàm khởi tạo (constructor) (java):",
+				"code": "<class-name>() {*lb // Các câu lệnh khởi tạo *lb }",
+				"content": "Hàm khởi tạo có tên trùng với tên lớp"
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo hàm hủy (destructor) (java):",
+				"code": "__destruct() { *lb // code *lb }",
+				"content": ""
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách biểu diễn kế thừa (java):",
+				"code": "class <class-name_con> extends <class-name_cha> { *lb ... *lb ... *lb}",
+				"content": ""
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"override": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách biểu diễn ghi đè phương thức (java):",
+				"code": "@Override *lb [modifier] <return-type> <name> ()*lb { *lb // code *lb }",
+				"content": "Trong đó*lb *modifier* Xác định mức truy cập của một phương thức thể hiện.*lb *return-type* Xác định kiểu dữ liệu của giá trị mà được trả về bởi phương thức.*lb *name* là tên của phương thức muốn ghi đè."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"overload": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách biểu diễn nạp chồng phương thức (java):",
+				"code": "[modifier] <return-type> <name> ([parameter-list])*lb { *lb // code *lb }",
+				"content": "Trong đó*lb *modifier* Xác định mức truy cập của một phương thức thể hiện.*lb *return-type* Xác định kiểu dữ liệu của giá trị mà được trả về bởi phương thức.*lb *name* là tên của phương thức muốn nạp chồng. *parameter_list* là danh sách các đối số."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"static": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo biến static (java):",
+				"code": "//Biến static *lb static <data-type> <name> = [value];*lb // Phương thức static *lb static <return-type> <method-name>() {*lb // code *lb }",
+				"content": "Trong đó*lb *data-type* là kiểu dữ liệu của biến.*lb *name* là tên biến. *lb *value* là giá trị của biến static.*lb *method-name* là tên của phương thức."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"casting": true
+		},
+		"response": {
+			"text": {
+				"title": "Cú pháp ép kiểu (c++):",
+				"code": "(type) expression",
+				"content": "Trong đó*lb *type* là kiểu dữ liệu bạn muốn"
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"const_casting": true
+		},
+		"response": {
+			"text": {
+				"title": "Cú pháp ép kiểu const (c++):",
+				"code": "const_cast<type> (expr)",
+				"content": "Trong đó*lb *const_cast* được sử dụng để ghi đè const.*lb *type* là kiểu dữ liệu muốn ép."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"dynamic_casting": true
+		},
+		"response": {
+			"text": {
+				"title": "Cú pháp ép kiểu động (c++):",
+				"code": "dynamic_cast<type> (expr)",
+				"content": "Trong đó*lb *dynamic_cast* thực hiện ép kiểu động.*lb *type* là kiểu dữ liệu muốn ép."
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"copy_constructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo copy constructor trong c++",
+				"code": "<class-name> (const <class-name> &obj) *lb { *lb // phan than cua constructor *lb }",
+				"content": "Trong đó*lb *obj* là một tham chiếu tới một đối tượng mà đang được sử dụng để khởi tạo đối tượng khác"
+			}
+		}
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "declare",
+			"virtual_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Cách khai báo hàm ảo trong c++",
+				"code": "virtual <return-type> <name>() { *lb // code *lb }",
+				"content": "Trong đó*lb *return-type* là kiểu dữ liệu trả về của phương thức. *lb *name* là tên của phương thức."
+			}
+		}
+	}
+]

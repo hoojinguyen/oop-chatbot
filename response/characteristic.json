@@ -1,0 +1,307 @@
+[
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"oop": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc trưng của lập trình hướng đối tượng?",
+                "content": "Tính đóng gói *lb Tính trừu tượng *lb Tính kế thừa *lb Tính đa  hình"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"class": true
+		},
+		"response": {
+			"text": {
+                "title": "Lớp có những đặc điểm gì ?",
+                "content": "được khai báo bằng từ khóa class. *lb nó chứa các biến (còn gọi là thuộc tính) hay các hàm. *lb  Các phần tử của class được quản lý bởi ba thuộc tính truy cập: private, protected hoặc public."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"abstraction": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc trưng của tính trừu tượng hóa ?",
+                "content": "Chỉ hiển thị những thông tin cần thiết và ẩn những thông tin không cần thiết."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"constructor": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của hàm khởi tạo ?",
+                "content": "không có kiểu trả về rõ ràng. *lb không được kế thừa ngầm và nó thường có các quy tắc khác nhau để chỉ định tầm vực. *lb Hàm tạo thường có tên giống với lớp được khai báo."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"destructor": true
+		},
+		"response": {
+			"text": {
+				"title": "Đặc điểm của hàm hủy ?",
+				"content": "Nó có thể xảy ra khi thời gian sống của nó được gắn với tầm vực và sự thực thi rời khỏi tầm vực đó, hay khi nó được nhúng vào trong đối tượng khác mà thời gian sống của đối tượng đó kết thúc, hoặc khi nó được cấp phát động và bị giải phóng một cách tường minh."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"encapsulation": true
+		},
+		"response": {
+			"text": {
+				"title": "Đặc trưng của tính đóng gói ?",
+				"content": "Tạo ra cơ chế để ngăn ngừa việc gọi phương thức của lớp này tác động hay truy xuất dữ liệu của đối tượng thuộc về lớp khác. *lb Dữ liệu riêng (khi được khai báo là private) của mỗi đối tượng được bảo vệ khỏi sự truy xuất không hợp lệ từ bên ngoài. *lb Người lập trình có thể dựa vào cơ chế này để ngăn ngừa việc gán giá trị không hợp lệ vào thành phần dữ liệu của mỗi đối tượng. *lb Cho phép thay đổi cấu trúc bên trong của một lớp mà không làm ảnh hưởng đến những lớp bên ngoài có sử dụng lớp đó."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+				"title": "Đặc điểm của tính kế thừa ?",
+				"content": "Lớp kế thừa có thể sử dụng lại các phương thức và thuộc tính của lớp cha."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"inheritance": true,
+            "constructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của hàm khởi tạo trong kế thừa ?",
+                "content": "luôn luôn được gọi tới khi ta khởi tạo một đối tượng. *lb Hàm khởi tạo có thẻ có tham số hoặc không có tham số, có thể có giá trị trả về hoặc không."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"inheritance": true,
+            "destructor": true,
+            "eConnector": "in"
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của hàm hủy trong kế thừa ?",
+                "content": "tự động gọi sau khi đối tượng bị hủy, nó thường được sử dụng để giải phóng bộ nhớ chương trình. Trong đối tượng hàm hủy có thể có hoặc không."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"single_inheritance": true,
+			"inheritance": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của thừa kế đơn ?",
+                "content": "Mỗi lớp chỉ kế thừa từ một lớp duy nhất."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "specification",
+			"inheritance": true,
+			"multilevel_inheritance": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của đa thừa kế ?",
+                "content": "Có thể kế thừa từ  nhiều lớp."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "specification",
+			"polymorphism": true
+		},
+		"response": {
+			"text": {
+                "title": "Đa hình có đặc điểm gì ?",
+                "content": "trong từng trường hợp, hoàn cảnh khác nhau thì đối tượng có hình thái khác nhau tùy thuộc vào từng ngữ cảnh."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "specification",
+			"interface": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của interface ?",
+                "content": "- Chỉ chứa khai báo không chứa phần định nghĩa (giống phương thức thuần ảo) tuy nhiên không cần phải khai báo từ khóa *abstract* *lb - Việc ghi đè 1 thành phần trong interface cũng không cần từ khoá *override*.  *lb - Không thể khai báo phạm vi truy cập cho các thành phần bên trong interface. Các thành phần này sẽ mặc định là *public* . *lb không chứa các thuộc tính (các biến) dù là hằng số hay biến tĩnh vẫn không được.  *lb Không có *constructor* cũng không có *destructor* *lb - Các lớp có thể thực thi nhiều interface cùng lúc *lb - Một interface có thể kế thừa nhiều interface khác nhưng không thể kế thừa bất kỳ lớp nào."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+            "eRequest": "specification",
+			"point": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của con trỏ ?",
+                "content": "chứa địa chỉ của một vùng trong bộ nhớ và có kiểu xác định. *lb Kích thước của con trỏ tương đương của int, tuy nhiên kích thước của vùng nhớ được trỏ tới là không xác định"
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"casting": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của việc ép kiểu ?",
+                "content": "chuyển đổi một biến từ một kiểu dữ liệu này sang kiểu dữ liệu khác. "
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"static": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của thành phần static ?",
+                "content": "Từ khóa static có thể được sử dụng để khai báo biến, dù đặt bên trong hay bên ngoài những khối lệnh, vẫn khiến cho biến đó có hiệu lực tương tự như biến toàn cục."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"friend_func": true
+		},
+		"response": {
+			"text": {
+				"title": "Đặc điểm của hàm bạn ?",
+				"content": "dữ liệu được bảo vệ (protected) và riêng tư (private) của một lớp có thể được truy cập bằng cách sử dụng hàm."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"friend_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của lớp bạn ?",
+                "content": "có thể truy cập cả các thành viên riêng tư và được bảo vệ của lớp mà nó đã được khai báo là friend."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"virtual_base_class": true
+		},
+		"response": {
+			"text": {
+				"title": "Đặc điểm của hàm ảo ?",
+				"content": "có thể thừa kế và ghi đè được để tạo điều kiện cho điều phối động."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"overload": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của việc nạp chồng ",
+                "content": "trong một lớp có nhiều phương thức cùng tên nhưng: *lb Khác nhau về số đối số truyền vào và các đối số có cùng kiểu dữ liệu. *lb Có cùng số đối số truyền vào và các đối số không có cùng kiểu dữ liệu. *lb Khác nhau trình tự kiểu dữ liệu của các đối số."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"vector_class": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của lớp vector ?",
+                "content": "Tự động tăng kích thước."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"stack": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm cúa stack ?",
+                "content": " phần tử cuối cùng được chèn vào ngăn xếp sẽ là phần tử đầu tiên được lấy ra khỏi ngăn xếp."
+			}
+		}		
+	},
+	{
+		"intent": "iWhat",
+		"parameters": {
+			"eRequest": "specification",
+			"queue": true
+		},
+		"response": {
+			"text": {
+                "title": "Đặc điểm của queue ?",
+                "content": " phần tử cuối cùng được chèn vào hàng đợi sẽ là phần tử cuối cùng được lấy ra khỏi hàng đợi. *lb ở một đầu không thể xảy ra hai hành động thêm và xóa đồng thời."
+			}
+		}		
+	}
+]
